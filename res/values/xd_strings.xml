@@ -92,4 +92,8 @@
     <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
 
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+
 </resources>
