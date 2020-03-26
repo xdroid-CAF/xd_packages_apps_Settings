@@ -67,6 +67,7 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "bouncy",
         "androidx.dynamicanimation",
+        "faceunlock_utils",
     ],
 
     libs: [
