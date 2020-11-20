@@ -36,9 +36,9 @@ import com.android.settings.Utils;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.p404.support.preferences.CustomSeekBarPreference;
-import com.p404.support.preferences.SecureSettingListPreference;
-import com.p404.support.preferences.SecureSettingSwitchPreference;
+import com.xd.support.preferences.CustomSeekBarPreference;
+import com.xd.support.preferences.SecureSettingListPreference;
+import com.xd.support.preferences.SecureSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -182,7 +182,7 @@ public class TrafficSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.ERROR;
+        return MetricsProto.MetricsEvent.XD_ZONE;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

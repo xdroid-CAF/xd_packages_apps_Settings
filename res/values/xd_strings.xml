@@ -129,4 +129,9 @@
     <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
     <string name="unit_seconds">seconds</string>
 
+    <!-- Support -->
+    <string name="ok">OK</string>
+    <string name="edit_hint">Value</string>
+    <string name="seek_value_edit_label">Set value</string>
+
 </resources>
