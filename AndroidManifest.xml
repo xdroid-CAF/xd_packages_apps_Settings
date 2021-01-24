@@ -3489,6 +3489,18 @@
             </intent-filter>
         </activity>
 
+        <!-- Xzrypr Features -->
+        <activity android:name=".Settings$XzryprActivity"
+            android:label="@string/xd_dashboard_xzrypr"
+            android:parentActivityName="com.android.settings">
+            <intent-filter android:priority="31">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.xzrypr.settings.ControlPanel" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
