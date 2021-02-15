@@ -127,11 +127,17 @@
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <string name="network_traffic_refresh_interval_title">Refresh interval</string>
     <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
-    <string name="unit_seconds">seconds</string>
+    <string name="unit_seconds">sec</string>
 
     <!-- Support -->
     <string name="ok">OK</string>
     <string name="edit_hint">Value</string>
     <string name="seek_value_edit_label">Set value</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Default</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
 
 </resources>
