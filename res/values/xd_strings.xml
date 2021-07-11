@@ -17,9 +17,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- xdroid version -->
-    <string name="xd_version">XD version</string>
+    <string name="xd_version">XD revision</string>
 
     <!-- CAF Revision -->
-    <string name="caf_rev">CAF revision</string>
+    <string name="caf_rev">CAF system revision</string>
 
 </resources>
