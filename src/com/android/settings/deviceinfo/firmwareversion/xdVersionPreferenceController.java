@@ -25,7 +25,7 @@ import com.android.settings.core.BasePreferenceController;
 public class xdVersionPreferenceController extends BasePreferenceController {
 
     @VisibleForTesting
-    private static final String XD_VERSION_PROP = "ro.xdroid.build.number";
+    private static final String XD_VERSION_PROP = "ro.xdroid.revision";
 
     public xdVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
