@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="xd_pref_ripple">#1f000000</color>
+    <color name="xd_pref_card_color">#ECECEC</color>
 </resources>

@@ -16,13 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- xd. version -->
-    <string name="xd_version">XD revision</string>
-
-    <!-- CAF Revision -->
-    <string name="caf_rev">CAF revision</string>
-
     <!-- xd. fake toolbar -->
-    <string name="xd_firmware_info">Firmware information</string>
+    <string name="xd_firmware_info">Tentang perangkat lunak</string>
 
 </resources>
