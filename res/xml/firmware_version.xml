@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Copyright (C) 2019 The Android Open Source Project
+  Copyright (C) 2021 xdroid, xyzprjkt°
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -18,12 +19,26 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/firmware_version"
+    android:title=" "
     settings:keywords="@string/keywords_android_version">
+
+    <!-- xd. fake toolbar -->
+    <Preference
+        android:title="@string/xd_firmware_info"
+        android:key="xd_action_bar"
+        android:layout="@layout/xd_action_bar"
+        android:selectable="false"/>
+
+    <!-- xd. banner header -->
+    <Preference
+        android:key="xd_fw_header"
+        android:layout="@layout/xd_firmware_header"
+        android:selectable="false"/>
 
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
+        android:layout="@layout/xd_pref_card_top"
         android:title="@string/firmware_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
@@ -33,6 +48,7 @@
     <!-- xd. version -->
     <Preference
         android:key="xd_version"
+        android:layout="@layout/xd_pref_card_mid"
         android:title="@string/xd_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
@@ -41,6 +57,7 @@
     <!-- CAF revision -->
     <Preference
         android:key="caf_revision"
+        android:layout="@layout/xd_pref_card_bot"
         android:title="@string/caf_rev"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.CodeAuroraForumPreferenceController"/>
@@ -48,6 +65,7 @@
     <!-- Security patch -->
     <Preference
         android:key="security_key"
+        android:layout="@layout/xd_pref_card_top"
         android:title="@string/security_patch"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
@@ -55,6 +73,7 @@
     <!-- Mainline module version -->
     <Preference
         android:key="module_version"
+        android:layout="@layout/xd_pref_card_bot"
         android:title="@string/module_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
@@ -63,27 +82,27 @@
     <!-- Baseband -->
     <Preference
         android:key="base_band"
+        android:layout="@layout/xd_pref_card_top"
         android:title="@string/baseband_version"
         android:summary="@string/summary_placeholder"
-        android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
 
     <!-- Kernel -->
     <Preference
         android:key="kernel_version"
+        android:layout="@layout/xd_pref_card_mid"
         android:title="@string/kernel_version"
         android:summary="@string/summary_placeholder"
-        android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
 
     <!-- Build -->
     <Preference
         android:key="os_build_number"
+        android:layout="@layout/xd_pref_card_bot"
         android:title="@string/build_number"
         android:summary="@string/summary_placeholder"
-        android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
 
