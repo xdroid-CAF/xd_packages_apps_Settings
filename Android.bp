@@ -60,7 +60,8 @@ android_library {
         "zxing-core-1.7",
         "android.hardware.dumpstate-V1.0-java",
         "android.hardware.dumpstate-V1.1-java",
-	"bouncy",
+        "bouncy",
+        "androidx.dynamicanimation",
     ],
 
     libs: [
@@ -105,5 +106,11 @@ android_library_import {
 android_library_import {
     name: "bouncy",
     aars: ["libs/bouncy-release.aar"],
+    sdk_version: "current",
+}
+
+android_library_import {
+    name: "androidx.dynamicanimation",
+    aars: ["libs/dynamicanimation-1.1.0-alpha03.aar"],
     sdk_version: "current",
 }
