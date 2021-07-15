@@ -14,13 +14,10 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<androidx.recyclerview.widget.RecyclerView
+<com.factor.bouncy.BouncyRecyclerView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@id/recycler_view"
-    style="?attr/preferenceFragmentListStyle"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="0dp"
-    android:paddingBottom="0dp"
-    android:clipToPadding="false"
-    android:overScrollMode="never"/>
+    android:clipToPadding="false"/>
