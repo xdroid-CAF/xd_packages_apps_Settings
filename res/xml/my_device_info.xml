@@ -132,7 +132,7 @@
     <!--IP address -->
     <Preference
         android:key="wifi_ip_address"
-        android:layout="@layout/xd_pref_card_mid"
+        android:layout="@layout/xd_pref_card_top"
         android:title="@string/wifi_ip_address"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"/>
