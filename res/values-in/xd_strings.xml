@@ -39,14 +39,9 @@
 
     <!-- xd. About Phone -->
     <string name="xd_device_name">Nama perangkat</string>
-    <string name="xd_device_name_summary">Tidak diketahui</string>
     <string name="xd_chipset_type">Chipset</string>
-    <string name="xd_chipset_type_summary">Tidak diketahui</string>
     <string name="xd_gpu">GPU</string>
-    <string name="xd_gpu_summary">Tidak diketahui</string>
     <string name="xd_camera_mp">Kamera</string>
-    <string name="xd_camera_mp_summary">Tidak diketahui</string>
     <string name="xd_screen_type">Layar</string>
-    <string name="xd_screen_type_summary">Tidak diketahui</string>
 
 </resources>
