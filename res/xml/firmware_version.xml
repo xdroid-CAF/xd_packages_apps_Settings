@@ -84,13 +84,6 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
 
-    <!-- General Category -->
-    <Preference
-        android:key="xd_category_general"
-        android:layout="@layout/xd_pref_category"
-        android:title="@string/xd_general_cat"
-        android:selectable="false"/>
-
     <!-- Mainline module version -->
     <Preference
         android:key="module_version"
@@ -99,6 +92,13 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>
+
+    <!-- General Category -->
+    <Preference
+        android:key="xd_category_general"
+        android:layout="@layout/xd_pref_category"
+        android:title="@string/xd_general_cat"
+        android:selectable="false"/>
 
     <!-- Baseband -->
     <Preference
