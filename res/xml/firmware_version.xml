@@ -35,6 +35,13 @@
         android:layout="@layout/xd_firmware_header"
         android:selectable="false"/>
 
+    <!-- Firmware Category -->
+    <Preference
+        android:key="xd_category_firmware_version"
+        android:layout="@layout/xd_pref_category"
+        android:title="@string/xd_firmware_version_cat"
+        android:selectable="false"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
@@ -62,6 +69,13 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.CodeAuroraForumPreferenceController"/>
 
+    <!-- Security FW Category -->
+    <Preference
+        android:key="xd_category_firmware_security"
+        android:layout="@layout/xd_pref_category"
+        android:title="@string/xd_firmware_security_cat"
+        android:selectable="false"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
@@ -69,6 +83,13 @@
         android:title="@string/security_patch"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
+
+    <!-- General Category -->
+    <Preference
+        android:key="xd_category_general"
+        android:layout="@layout/xd_pref_category"
+        android:title="@string/xd_general_cat"
+        android:selectable="false"/>
 
     <!-- Mainline module version -->
     <Preference

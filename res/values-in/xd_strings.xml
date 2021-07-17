@@ -18,5 +18,35 @@
 
     <!-- xd. fake toolbar -->
     <string name="xd_firmware_info">Tentang perangkat lunak</string>
+    <string name="xd_hardware_info">Tentang perangkat keras</string>
+    <string name="xd_about_phone">Tentang ponsel</string>
+
+    <!-- xd. Preferences -->
+    <string name="xd_firmware_info_summary">Informasi perangkat lunak di ponsel ini</string>
+    <string name="xd_hardware_info_summary">Informasi tentang perangkat keras di ponsel ini</string>
+    <string name="xd_device_owner">Pemilik</string>
+    <string name="xd_legal_information_summary">Informasi lisensi legalitas</string>
+    <string name="xd_regulatory_summary">Informasi regulator</string>
+
+    <!-- xd. Preferences Category -->
+    <string name="xd_about_phone_owner_cat">Informasi pengguna</string>
+    <string name="xd_about_phone_information_cat">Informasi perangkat</string>
+    <string name="xd_about_phone_legalregulator_cat">Informasi Legalitas dan Regulator</string>
+    <string name="xd_about_phone_network_cat">Informasi jaringan</string>
+    <string name="xd_firmware_version_cat">Versi firmware</string>
+    <string name="xd_firmware_security_cat">Keamanan firmware</string>
+    <string name="xd_general_cat">Informasi umum</string>
+
+    <!-- xd. About Phone -->
+    <string name="xd_device_name">Nama perangkat</string>
+    <string name="xd_device_name_summary">Tidak diketahui</string>
+    <string name="xd_chipset_type">Chipset</string>
+    <string name="xd_chipset_type_summary">Tidak diketahui</string>
+    <string name="xd_gpu">GPU</string>
+    <string name="xd_gpu_summary">Tidak diketahui</string>
+    <string name="xd_camera_mp">Kamera</string>
+    <string name="xd_camera_mp_summary">Tidak diketahui</string>
+    <string name="xd_screen_type">Layar</string>
+    <string name="xd_screen_type_summary">Tidak diketahui</string>
 
 </resources>

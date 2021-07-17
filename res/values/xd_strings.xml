@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright 2021 a xdroid prjkt
+     Copyright 2021 xdroid, xyzprjkt
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,6 +24,36 @@
 
     <!-- xd. fake toolbar -->
     <string name="xd_firmware_info">Firmware information</string>
+    <string name="xd_hardware_info">Hardware information</string>
+    <string name="xd_about_phone">About phone</string>
+
+    <!-- xd. Preferences -->
+    <string name="xd_firmware_info_summary">Information about firmware in this phone</string>
+    <string name="xd_hardware_info_summary">Information about hardware in this phone</string>
+    <string name="xd_device_owner">Owner name</string>
+    <string name="xd_legal_information_summary">License legal information</string>
+    <string name="xd_regulatory_summary">Regulatory information</string>
+
+    <!-- xd. Preferences Category -->
+    <string name="xd_about_phone_owner_cat">Owner information</string>
+    <string name="xd_about_phone_information_cat">Device information</string>
+    <string name="xd_about_phone_legalregulator_cat">Legal and Regulator information</string>
+    <string name="xd_about_phone_network_cat">Network information</string>    
+    <string name="xd_firmware_version_cat">Firmware version</string>
+    <string name="xd_firmware_security_cat">Firmware security</string>
+    <string name="xd_general_cat">General information</string>
+
+    <!-- xd. About Phone -->
+    <string name="xd_device_name">Device Name</string>
+    <string name="xd_device_name_summary">Unknown</string>
+    <string name="xd_chipset_type">Chipset</string>
+    <string name="xd_chipset_type_summary">Unknown</string>
+    <string name="xd_gpu">GPU</string>
+    <string name="xd_gpu_summary">Unknown</string>
+    <string name="xd_camera_mp">Camera</string>
+    <string name="xd_camera_mp_summary">Unknown</string>
+    <string name="xd_screen_type">Screen</string>
+    <string name="xd_screen_type_summary">Unknown</string>
 
     <!-- Battery Styles -->
     <string name="battery_percent_title">Statusbar battery indicator</string>
