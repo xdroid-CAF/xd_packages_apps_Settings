@@ -33,6 +33,7 @@
     <string name="xd_device_owner">Owner name</string>
     <string name="xd_legal_information_summary">License legal information</string>
     <string name="xd_regulatory_summary">Regulatory information</string>
+    <string name="xd_wifi_saved">Saved network</string>
 
     <!-- xd. Preferences Category -->
     <string name="xd_about_phone_owner_cat">Owner information</string>

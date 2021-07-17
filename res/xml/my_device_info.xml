@@ -141,7 +141,7 @@
     <Preference
         android:key="saved_accesspoints_wifi_mac_address"
         android:layout="@layout/xd_pref_card_mid"
-        android:title="@string/status_wifi_mac_address"
+        android:title="@string/xd_wifi_saved"
         android:summary="@string/view_saved_network"
         android:fragment="com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings"
         settings:enableCopying="false"/>
