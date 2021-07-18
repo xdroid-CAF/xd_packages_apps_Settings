@@ -19,7 +19,6 @@
     android:layout_height="wrap_content"
     android:minHeight="?android:attr/listPreferredItemHeightSmall"
     android:gravity="center_vertical"
-    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
     android:clipToPadding="false"
     android:baselineAligned="false">
 
@@ -50,5 +49,4 @@
             style="@style/xd_text_secondary" />
 
     </RelativeLayout>
-
 </LinearLayout>

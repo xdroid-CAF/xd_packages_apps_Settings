@@ -27,6 +27,24 @@
     <string name="xd_hardware_info">Hardware information</string>
     <string name="xd_about_phone">About phone</string>
 
+    <!-- xd. Dashboard -->
+    <string name="xd_dashboard_greet">Hello</string>
+    <string name="xd_dashboard_device">About device</string>
+    <string name="xd_dashboard_account">Account</string>
+    <string name="xd_dashboard_network">Internet</string>
+    <string name="xd_dashboard_conectivity">Device connect</string>    
+    <string name="xd_dashboard_display">Display</string>
+    <string name="xd_dashboard_battery">Battery</string>
+    <string name="xd_dashboard_sound">Sound</string>
+    <string name="xd_dashboard_apps">Apps</string>    
+    <string name="xd_dashboard_storage">Storage</string>
+    <string name="xd_dashboard_privacy">Privacy</string>    
+    <string name="xd_dashboard_location">Location</string>
+    <string name="xd_dashboard_security">Security</string>
+    <string name="xd_dashboard_accessibility">Accessibility</string>
+    <string name="xd_dashboard_system">Other</string>    
+    <string name="xd_dashboard_support">Support</string>
+
     <!-- xd. Preferences -->
     <string name="xd_firmware_info_summary">Information about firmware in this phone</string>
     <string name="xd_hardware_info_summary">Information about hardware in this phone</string>
@@ -43,6 +61,11 @@
     <string name="xd_firmware_version_cat">Firmware version</string>
     <string name="xd_firmware_security_cat">Firmware security</string>
     <string name="xd_general_cat">General information</string>
+    <string name="xd_category_ui">User interfaces</string>    
+    <string name="xd_category_screen">Screen</string>
+    <string name="xd_category_density">Density</string>
+    <string name="xd_category_gesture">Screen gestures</string>
+    <string name="xd_category_brightness">Brightness</string>
 
     <!-- xd. About Phone -->
     <string name="xd_device_name">Device Name</string>

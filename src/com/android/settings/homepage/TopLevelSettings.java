@@ -81,6 +81,19 @@ public class TopLevelSettings extends DashboardFragment implements
     }
 
     @Override
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        super.onCreatePreferences(savedInstanceState, rootKey);
+        for (int i = 0; i < getPreferenceScreen().getPreferenceCount(); i++) {
+            Preference pref = getPreferenceScreen().getPreference(i);
+            if (pref.isVisible() && pref.getTitle() != null && 
+                pref.getLayoutResource() != R.layout.xd_dashboard_pref_top && 
+                pref.getLayoutResource() != R.layout.xd_dashboard_pref_bot) {
+                pref.setLayoutResource(R.layout.xd_dashboard_pref_mid);
+            }
+        }
+    }
+
+    @Override
     public boolean onPreferenceStartFragment(PreferenceFragmentCompat caller, Preference pref) {
         new SubSettingLauncher(getActivity())
                 .setDestination(pref.getFragment())

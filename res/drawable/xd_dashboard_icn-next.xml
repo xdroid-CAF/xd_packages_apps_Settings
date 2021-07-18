@@ -14,15 +14,15 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/container"
-    style="@style/xd_dashboard_pref_card_sin"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
 
-    <include
-        layout="@layout/xd_dashboard_pref"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-</FrameLayout>
+    <path
+        android:pathData="M0 0h24v24H0V0z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M9.31 6.71c-0.39 0.39 -0.39 1.02 0 1.41L13.19 12l-3.88 3.88c-0.39 0.39 -0.39 1.02 0 1.41 0.39 0.39 1.02 0.39 1.41 0l4.59-4.59c0.39-0.39 0.39 -1.02 0-1.41L10.72 6.7c-0.38-0.38-1.02-0.38-1.41 0.01 z" />
+</vector>

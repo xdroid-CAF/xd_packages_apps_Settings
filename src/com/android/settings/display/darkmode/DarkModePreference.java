@@ -37,6 +37,7 @@ public class DarkModePreference extends MasterSwitchPreference {
 
     public DarkModePreference(Context context, AttributeSet attrs) {
         super(context, attrs);
+        setLayoutResource(R.layout.xd_pref_card_top);
         mDarkModeObserver = new DarkModeObserver(context);
         mUiModeManager = context.getSystemService(UiModeManager.class);
         mPowerManager = context.getSystemService(PowerManager.class);
