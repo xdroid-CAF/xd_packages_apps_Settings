@@ -20,16 +20,19 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/xd_dashboard_header_height"
     android:layout_gravity="center_horizontal|top"
-    android:background="@drawable/xd_pref_card_sin"
+    android:background="@drawable/xd_pref_card_top"
     style="@style/xd_dashboard_header">
 
     <TextView
         android:id="@+id/settings_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
         android:textSize="42sp"
         android:text="@string/xd_dashboard_greet"
+        android:fontFamily="@font/Poppins-Bold"
         style="@style/xd_text_primary" />
 
 </FrameLayout>

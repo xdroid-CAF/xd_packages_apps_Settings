@@ -45,11 +45,11 @@
                 android:background="@android:color/transparent"
                 app:elevation="0dp">
 
-                <include 
-                    layout="@layout/search_bar"/>
-                    
                 <include
                     layout="@layout/xd_dashboard_header"/>
+
+                <include 
+                    layout="@layout/search_bar"/>
 
                 <FrameLayout
                     android:id="@+id/contextual_cards_content"
