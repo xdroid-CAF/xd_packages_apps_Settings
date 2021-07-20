@@ -87,7 +87,8 @@ public class TopLevelSettings extends DashboardFragment implements
             Preference pref = getPreferenceScreen().getPreference(i);
             if (pref.isVisible() && pref.getTitle() != null && 
                 pref.getLayoutResource() != R.layout.xd_dashboard_pref_top && 
-                pref.getLayoutResource() != R.layout.xd_dashboard_pref_bot) {
+                pref.getLayoutResource() != R.layout.xd_dashboard_pref_bot && 
+                pref.getLayoutResource() != R.layout.xd_dashboard_xzrypr ) {
                 pref.setLayoutResource(R.layout.xd_dashboard_pref_mid);
             }
         }

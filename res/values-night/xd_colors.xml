@@ -19,4 +19,8 @@
      <!-- xd. Framework -->
      <color name="xd_pref_card_color">#131313</color>
      
+     <!-- xzrypr -->
+     <color name="xd_dashboard_xzrypr">#4F4F4F</color>
+     <color name="xd_xzrypr_text_color">#FFFFFF</color>
+
 </resources>
