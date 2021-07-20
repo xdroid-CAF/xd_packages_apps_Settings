@@ -22,6 +22,13 @@
     android:key="top_level_settings">
 
     <Preference
+        android:key="top_level_xzrypr"
+        android:title="@string/xd_dashboard_xzrypr"
+        android:layout="@layout/xd_dashboard_xzrypr"
+        android:order="-51"
+        android:fragment="com.xzrypr.settings.ControlPanel"/>
+
+    <Preference
         android:key="top_level_about_device"
         android:order="-50"
         android:title="@string/xd_dashboard_device"
@@ -34,13 +41,6 @@
         android:title="@string/xd_dashboard_account"
         android:layout="@layout/xd_dashboard_pref_bot"
         android:fragment="com.android.settings.accounts.AccountDashboardFragment"/>
-
-    <Preference
-        android:key="top_level_xzrypr"
-        android:title="@string/xd_dashboard_xzrypr"
-        android:layout="@layout/xd_dashboard_pref_sin"
-        android:order="-48"
-        android:fragment="com.xzrypr.settings.ControlPanel"/>
 
     <Preference
         android:key="top_level_network"
