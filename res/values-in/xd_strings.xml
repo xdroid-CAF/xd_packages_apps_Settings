@@ -21,6 +21,27 @@
     <string name="xd_hardware_info">Tentang perangkat keras</string>
     <string name="xd_about_phone">Tentang ponsel</string>
 
+    <!-- xd. Dashboard -->
+    <string name="xd_dashboard_greet">Apa yang sedang anda cari?</string>
+    <string name="xd_dashboard_device">Tentang perangkat</string>
+    <string name="xd_dashboard_account">Akun</string>
+    <string name="xd_dashboard_network">Internet</string>
+    <string name="xd_dashboard_conectivity">Konektivitas</string>    
+    <string name="xd_dashboard_display">Tampilan</string>
+    <string name="xd_dashboard_battery">Baterai</string>
+    <string name="xd_dashboard_sound">Suara</string>
+    <string name="xd_dashboard_apps">Aplikasi dan notifikasi</string>    
+    <string name="xd_dashboard_storage">Penyimpanan</string>
+    <string name="xd_dashboard_privacy">Privasi</string>    
+    <string name="xd_dashboard_location">Lokasi</string>
+    <string name="xd_dashboard_security">Keamanan</string>
+    <string name="xd_dashboard_accessibility">Aksesibilitas</string>
+    <string name="xd_dashboard_system">Lainnya</string>    
+    <string name="xd_dashboard_support">Support</string>
+
+    <!-- xd. zxrypr -->
+    <string name="xd_dashboard_xzrypr_summary">Dapatkan kustomisasi favorit anda</string>
+
     <!-- xd. Preferences -->
     <string name="xd_firmware_info_summary">Informasi perangkat lunak di ponsel ini</string>
     <string name="xd_hardware_info_summary">Informasi tentang perangkat keras di ponsel ini</string>
