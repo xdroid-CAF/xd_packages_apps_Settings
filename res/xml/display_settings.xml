@@ -40,6 +40,12 @@
         settings:controller="com.android.settings.display.DarkUIPreferenceController"
         settings:keywords="@string/keywords_dark_ui_mode"/>
 
+    <SwitchPreference
+        android:key="enable_blurs_on_windows"
+        android:title="@string/blurs_effect"
+        android:summary="@string/enable_blurs_on_windows_summary"
+        android:layout="@layout/xd_pref_card_bot" />
+
     <Preference
         android:title="@string/xd_category_brightness"
         android:layout="@layout/xd_pref_category"
@@ -94,13 +100,6 @@
         android:fragment="com.android.settings.display.AdaptiveSleepSettings"
         settings:controller="com.android.settings.display.AdaptiveSleepPreferenceController" />
 
-    <SwitchPreference
-        android:key="auto_rotate"
-        android:title="@string/accelerometer_title"
-        android:layout="@layout/xd_pref_card_mid"
-        settings:keywords="@string/keywords_auto_rotate"
-        settings:controller="com.android.settings.display.AutoRotatePreferenceController" />
-
     <Preference
         android:key="color_mode"
         android:title="@string/color_mode_title"
@@ -123,6 +122,13 @@
         android:summary="@string/peak_refresh_rate_summary"
         settings:controller="com.android.settings.display.PeakRefreshRatePreferenceController" />
 
+    <SwitchPreference
+        android:key="auto_rotate"
+        android:title="@string/accelerometer_title"
+        android:layout="@layout/xd_pref_card_bot"
+        settings:keywords="@string/keywords_auto_rotate"
+        settings:controller="com.android.settings.display.AutoRotatePreferenceController" />
+
     <Preference
         android:title="@string/xd_category_density"
         android:layout="@layout/xd_pref_category"
@@ -138,14 +144,8 @@
     <com.android.settings.display.ScreenZoomPreference
         android:key="display_settings_screen_zoom"
         android:title="@string/screen_zoom_title"
-        android:layout="@layout/xd_pref_card_mid"
+        android:layout="@layout/xd_pref_card_bot"
         android:fragment="com.android.settings.display.ScreenZoomSettings"/>
-
-    <SwitchPreference
-        android:key="show_operator_name"
-        android:title="@string/show_operator_name_title"
-        android:layout="@layout/xd_pref_card_sin"
-        android:summary="@string/show_operator_name_summary" />
 
     <Preference
         android:title="@string/xd_category_gesture"
@@ -191,6 +191,12 @@
         android:layout="@layout/xd_pref_card_top"
         android:fragment="com.android.settings.dream.DreamSettings" />
 
+    <SwitchPreference
+        android:key="show_operator_name"
+        android:title="@string/show_operator_name_title"
+        android:layout="@layout/xd_pref_card_sin"
+        android:summary="@string/show_operator_name_summary" />
+        
     <Preference
         android:key="lockscreen_from_display_settings"
         android:title="@string/lockscreen_settings_title"

@@ -57,7 +57,7 @@
     <string name="xd_about_phone_network_cat">Informasi jaringan</string>
     <string name="xd_firmware_version_cat">Versi firmware</string>
     <string name="xd_firmware_security_cat">Keamanan firmware</string>
-    <string name="xd_general_cat">Informasi umum</string>
+    <string name="xd_general_cat">Umum</string>
 
     <!-- xd. About Phone -->
     <string name="xd_device_name">Nama perangkat</string>

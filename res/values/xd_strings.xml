@@ -56,6 +56,7 @@
     <string name="xd_legal_information_summary">License legal information</string>
     <string name="xd_regulatory_summary">Regulatory information</string>
     <string name="xd_wifi_saved">Saved network</string>
+    <string name="blurs_effect">Blur effect</string>
 
     <!-- xd. Preferences Category -->
     <string name="xd_about_phone_owner_cat">Owner information</string>
@@ -64,7 +65,7 @@
     <string name="xd_about_phone_network_cat">Network information</string>    
     <string name="xd_firmware_version_cat">Firmware version</string>
     <string name="xd_firmware_security_cat">Firmware security</string>
-    <string name="xd_general_cat">General information</string>
+    <string name="xd_general_cat">General</string>
     <string name="xd_category_ui">User interfaces</string>    
     <string name="xd_category_screen">Screen</string>
     <string name="xd_category_density">Density</string>
