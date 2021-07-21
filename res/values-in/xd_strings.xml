@@ -55,6 +55,7 @@
     <string name="xd_legal_information_summary">Informasi lisensi legalitas</string>
     <string name="xd_regulatory_summary">Informasi regulator</string>
     <string name="xd_wifi_saved">Jaringan tersimpan</string>
+    <string name="dark_ui_mode_summary">Menerapkan tema gelap di perangkat ini</string>
 
     <!-- xd. Preferences Category -->
     <string name="xd_about_phone_owner_cat">Informasi pengguna</string>

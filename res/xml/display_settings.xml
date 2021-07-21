@@ -31,13 +31,12 @@
         android:layout="@layout/xd_pref_category"
         android:selectable="false"/>
 
-    <com.android.settings.display.darkmode.DarkModePreference
+    <Preference
         android:key="dark_ui_mode"
         android:title="@string/dark_ui_mode"
+        android:summary="@string/dark_ui_mode_summary"
+        android:layout="@layout/xd_pref_card_top"
         android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
-        android:widgetLayout="@null"
-        settings:widgetLayout="@null"
-        settings:controller="com.android.settings.display.DarkUIPreferenceController"
         settings:keywords="@string/keywords_dark_ui_mode"/>
 
     <SwitchPreference
