@@ -30,7 +30,7 @@
 
     <!-- xd. Dashboard -->
     <string name="xd_dashboard_greet">What are you looking for?</string>
-    <string name="xd_dashboard_device">About device</string>
+    <string name="xd_dashboard_device">About phone</string>
     <string name="xd_dashboard_account">Account</string>
     <string name="xd_dashboard_network">Internet</string>
     <string name="xd_dashboard_conectivity">Connectivity</string>    
