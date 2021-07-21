@@ -23,38 +23,40 @@
     android:baselineAligned="false">
 
     <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_weight="1"
-        android:paddingTop="16dp"
-        android:paddingBottom="16dp">
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitEnd"
+            android:tint="?android:attr/colorAccent"
+            android:src="@drawable/xd_xzrypr_pref_img" />
 
         <TextView
             android:id="@android:id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:paddingTop="24dp"
             android:ellipsize="marquee"
             android:singleLine="true"
-            android:textColor="@color/xd_xzrypr_text_color"
-            style="@style/xd_text_primary_medium" />
+            android:textColor="?android:attr/colorAccent"
+            style="@style/xd_text_highlight_primary" />
+
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@android:id/title"
+            android:layout_alignStart="@android:id/title"
+            android:maxLines="10"
+            android:layout_marginTop="2dp"
+            android:paddingBottom="16dp"
+            android:textColor="?android:attr/colorAccent"
+            style="@style/xd_text_highlight_secondary" />
 
     </RelativeLayout>
-
-    <!-- Next Navigation should be there -->
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:minWidth="64dp"
-        android:orientation="vertical" >
-
-    <ImageView
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:src="@drawable/xd_dashboard_icn-next"
-        android:tint="@color/xd_xzrypr_text_color" />
-
-    </LinearLayout>
 
 </LinearLayout>

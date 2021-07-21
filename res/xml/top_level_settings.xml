@@ -24,6 +24,7 @@
     <Preference
         android:key="top_level_xzrypr"
         android:title="@string/xd_dashboard_xzrypr"
+        android:summary="@string/xd_dashboard_xzrypr_summary"
         android:layout="@layout/xd_dashboard_xzrypr"
         android:order="-51"
         android:fragment="com.xzrypr.settings.ControlPanel"/>

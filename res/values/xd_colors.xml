@@ -21,7 +21,6 @@
      <color name="xd_pref_card_color">#F3F4F6</color>
      
      <!-- xzrypr -->
-     <color name="xd_dashboard_xzrypr">#AAC9FA</color>
-     <color name="xd_xzrypr_text_color">#16325C</color>
+     <color name="xd_dashboard_xzrypr">#33FFFFFF</color>
      
 </resources>

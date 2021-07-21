@@ -12,7 +12,7 @@
         </shape>
     </item>
     <item android:id="@android:id/background">
-        <shape android:shape="rectangle">
+        <shape android:shape="rectangle" android:tint="?android:colorAccent">
             <solid android:color="@color/xd_dashboard_xzrypr" />
             <corners
                 android:topRightRadius="8dp"
