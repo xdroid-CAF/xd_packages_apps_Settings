@@ -30,6 +30,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/xd_about_desc"
+        android:textSize="14sp"
         style="@style/xd_text_primary" />
 
 </FrameLayout>

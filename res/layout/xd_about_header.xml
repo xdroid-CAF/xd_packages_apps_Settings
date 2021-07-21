@@ -27,14 +27,5 @@
             android:layout_height="match_parent"
             android:scaleType="fitStart"
             android:src="@drawable/xd_firmware_header_bg" />
-    <TextView
-        android:textSize="60dp"
-        android:gravity="end|center"
-        android:fontFamily="@font/Poppins-ExtraBoldItalic"
-        android:textAppearance="?android:attr/textAppearanceListItem"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingTop="15dp"
-        android:text="xdroid " />
     </RelativeLayout>
 </FrameLayout>
