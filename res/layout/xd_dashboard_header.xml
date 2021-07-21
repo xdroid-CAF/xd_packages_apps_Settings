@@ -29,8 +29,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="start|bottom"
         android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
-        android:textSize="38sp"
+        android:textSize="34sp"
         android:text="@string/xd_dashboard_greet"
         android:fontFamily="@font/Poppins-Bold"
         style="@style/xd_text_primary" />
