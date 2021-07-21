@@ -20,6 +20,7 @@
     <string name="xd_firmware_info">Tentang perangkat lunak</string>
     <string name="xd_hardware_info">Tentang perangkat keras</string>
     <string name="xd_about_phone">Tentang ponsel</string>
+    <string name="xd_about">Tentang xdroid</string>
 
     <!-- xd. Dashboard -->
     <string name="xd_dashboard_greet">Apa yang sedang anda cari?</string>
@@ -41,6 +42,11 @@
 
     <!-- xd. zxrypr -->
     <string name="xd_dashboard_xzrypr_summary">Dapatkan kustomisasi favorit anda</string>
+
+    <!-- xd. About -->
+    <string name="xd_about_desc">xdroid adalah CustomROM berbasis CAF yang berfokus pada UI yang sederhana dan minimalis dengan tetap menjaga kelancaran dan optimasi yang disediakan oleh Code Aurora Forum</string>
+    <string name="xd_about_core_xyzuan_role">Founder, Main Developer dan UI Designer</string>
+    <string name="xd_about_core_friction_role">UI dan UX Designer</string>
 
     <!-- xd. Preferences -->
     <string name="xd_firmware_info_summary">Informasi perangkat lunak di ponsel ini</string>

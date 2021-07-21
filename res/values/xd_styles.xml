@@ -150,4 +150,21 @@
         <item name="android:clipToPadding">false</item>
     </style>
 
+    <style name="xd_about_card_top">
+        <item name="android:layout_marginBottom">-1dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_top</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+    
+    <style name="xd_about_card_bot">
+        <item name="android:layout_marginTop">-1dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_bot</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
 </resources>

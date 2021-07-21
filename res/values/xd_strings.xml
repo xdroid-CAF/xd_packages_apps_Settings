@@ -26,6 +26,7 @@
     <string name="xd_firmware_info">Firmware information</string>
     <string name="xd_hardware_info">Hardware information</string>
     <string name="xd_about_phone">About phone</string>
+    <string name="xd_about">About xdroid</string>
 
     <!-- xd. Dashboard -->
     <string name="xd_dashboard_greet">What are you looking for?</string>
@@ -71,6 +72,14 @@
     <string name="xd_category_density">Density</string>
     <string name="xd_category_gesture">Screen gestures</string>
     <string name="xd_category_brightness">Brightness</string>
+    <string name="xd_about_core_team_cat">Core developer</string>
+
+    <!-- xd. About -->
+    <string name="xd_about_desc">xdroid is a custom ROM based on CAF which focusing on simple and minimalism UI while keep maintaining the smoothness and optimization provided by Code Aurora Forum.</string>
+    <string name="xd_about_core_xyzuan">Jody Yuantoro</string>
+    <string name="xd_about_core_xyzuan_role">Founder, Main Developer and UI Designer</string>
+    <string name="xd_about_core_friction">Firman Yanuar</string>
+    <string name="xd_about_core_friction_role">UI and UX Designer</string>
 
     <!-- xd. About Phone -->
     <string name="xd_device_name">Device Name</string>
