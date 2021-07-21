@@ -51,15 +51,26 @@
         android:layout="@layout/xd_about_core_pref"
         android:icon="@drawable/xd_about_xyzuan"
         android:title="@string/xd_about_core_xyzuan"
-        android:summary="@string/xd_about_core_xyzuan_role"
-        android:selectable="false"/>
+        android:summary="@string/xd_about_core_xyzuan_role">
 
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/xyzuan"/>
+
+    </Preference>
+
+    <!-- friction -->
     <Preference
         android:key="xd_about_friction"
         android:icon="@drawable/xd_about_friction"
         android:layout="@layout/xd_about_core_pref"
         android:title="@string/xd_about_core_friction"
-        android:summary="@string/xd_about_core_friction_role"
-        android:selectable="false"/>
+        android:summary="@string/xd_about_core_friction_role">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/gerobaksariroti"/>
+
+    </Preference>
 
 </PreferenceScreen>
