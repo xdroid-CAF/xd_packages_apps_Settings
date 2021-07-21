@@ -26,6 +26,29 @@
     <string name="xd_firmware_info">Firmware information</string>
     <string name="xd_hardware_info">Hardware information</string>
     <string name="xd_about_phone">About phone</string>
+    <string name="xd_about">About xdroid</string>
+
+    <!-- xd. Dashboard -->
+    <string name="xd_dashboard_greet">What are you looking for?</string>
+    <string name="xd_dashboard_device">About phone</string>
+    <string name="xd_dashboard_account">Account</string>
+    <string name="xd_dashboard_network">Internet</string>
+    <string name="xd_dashboard_conectivity">Connectivity</string>    
+    <string name="xd_dashboard_display">Display</string>
+    <string name="xd_dashboard_battery">Battery</string>
+    <string name="xd_dashboard_sound">Sound</string>
+    <string name="xd_dashboard_apps">Apps</string>    
+    <string name="xd_dashboard_storage">Storage</string>
+    <string name="xd_dashboard_privacy">Privacy</string>    
+    <string name="xd_dashboard_location">Location</string>
+    <string name="xd_dashboard_security">Security</string>
+    <string name="xd_dashboard_accessibility">Accessibility</string>
+    <string name="xd_dashboard_system">Other</string>    
+    <string name="xd_dashboard_support">Support</string>
+
+    <!-- xd. zxrypr -->
+    <string name="xd_dashboard_xzrypr">xzrypr</string>
+    <string name="xd_dashboard_xzrypr_summary">Get your favorite customization</string>
 
     <!-- xd. Preferences -->
     <string name="xd_firmware_info_summary">Information about firmware in this phone</string>
@@ -34,6 +57,8 @@
     <string name="xd_legal_information_summary">License legal information</string>
     <string name="xd_regulatory_summary">Regulatory information</string>
     <string name="xd_wifi_saved">Saved network</string>
+    <string name="blurs_effect">Blur effect</string>
+    <string name="dark_ui_mode_summary">Enable Dark Theme in this devices</string>
 
     <!-- xd. Preferences Category -->
     <string name="xd_about_phone_owner_cat">Owner information</string>
@@ -42,7 +67,20 @@
     <string name="xd_about_phone_network_cat">Network information</string>    
     <string name="xd_firmware_version_cat">Firmware version</string>
     <string name="xd_firmware_security_cat">Firmware security</string>
-    <string name="xd_general_cat">General information</string>
+    <string name="xd_general_cat">General</string>
+    <string name="xd_category_ui">User interfaces</string>    
+    <string name="xd_category_screen">Screen</string>
+    <string name="xd_category_density">Density</string>
+    <string name="xd_category_gesture">Screen gestures</string>
+    <string name="xd_category_brightness">Brightness</string>
+    <string name="xd_about_core_team_cat">Core developer</string>
+
+    <!-- xd. About -->
+    <string name="xd_about_desc">xdroid is a custom ROM based on CAF which focusing on simple and minimalism UI while keep maintaining the smoothness and optimization provided by Code Aurora Forum.</string>
+    <string name="xd_about_core_xyzuan">Jody Yuantoro</string>
+    <string name="xd_about_core_xyzuan_role">Founder, Main Developer and UI Designer</string>
+    <string name="xd_about_core_friction">Firman Yanuar</string>
+    <string name="xd_about_core_friction_role">UI and UX Designer</string>
 
     <!-- xd. About Phone -->
     <string name="xd_device_name">Device Name</string>
@@ -55,20 +93,65 @@
     <string name="xd_camera_mp_summary">Unknown</string>
     <string name="xd_screen_type">Screen</string>
     <string name="xd_screen_type_summary">Unknown</string>
-
-    <!-- Battery Styles -->
-    <string name="battery_percent_title">Statusbar battery indicator</string>
-    <string name="battery_percent_summary">Configure icon and text styles for the statusbar battery indicator</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Dotted circle</string>
-    <string name="status_bar_battery_style_filled_circle">Filled circle</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Quick torch</string>
+    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+
+    <!-- Volume Control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+
+    <!-- Ambient Music -->
+    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+
+        <!-- Traffic Indicator -->
+    <string name="trafficsettings_title">Traffic Indicator</string>
+    <string name="trafficsettings_summary">Statusbar/Header traffic indicator settings</string>
+    <string name="network_traffic_settings_title">Network traffic monitor</string>
+    <string name="network_traffic_settings_summary">Display and customize current network traffic levels</string>
+    <string name="network_traffic_location_title">Location</string>
+    <string name="network_traffic_location_disable">Disabled</string>
+    <string name="network_traffic_location_statusbar">Statusbar</string>
+    <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
+    <string name="network_traffic_mode_title">Display mode</string>
+    <string name="network_traffic_mode_up">Upload only</string>
+    <string name="network_traffic_mode_down">Download only</string>
+    <string name="network_traffic_mode_all">Upload and download</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when inactive</string>
+    <string name="network_traffic_autohide_kilobits">Kb/s</string>
+    <string name="network_traffic_autohide_kilobytes">KB/s</string>
+    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+    <string name="network_traffic_show_units">Show units</string>
+    <string name="network_traffic_show_units_summary">Whether to show traffic measurement units</string>
+    <string name="network_traffic_units_title">Traffic measurement units</string>
+    <string name="network_traffic_units_bits">Bits per second (b/s)</string>
+    <string name="network_traffic_units_kilobits">Kilobits per second (kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabits per second (Mb/s)</string>
+    <string name="network_traffic_units_bytes">Bytes per second (B/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+    <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
+    <string name="unit_seconds">sec</string>
+
+    <!-- Support -->
+    <string name="ok">OK</string>
+    <string name="edit_hint">Value</string>
+    <string name="seek_value_edit_label">Set value</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Default</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+
 </resources>

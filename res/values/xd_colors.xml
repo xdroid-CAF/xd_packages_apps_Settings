@@ -15,6 +15,12 @@
      limitations under the License.
 -->
 <resources>
-    <color name="xd_pref_ripple">#1f000000</color>
-    <color name="xd_pref_card_color">#F3F4F6</color>
+
+     <!-- xd. Framework -->
+     <color name="xd_pref_ripple">#1f000000</color>
+     <color name="xd_pref_card_color">#F3F4F6</color>
+     
+     <!-- xzrypr -->
+     <color name="xd_dashboard_xzrypr">#33FFFFFF</color>
+     
 </resources>

@@ -28,11 +28,16 @@ android_library {
         "framework-wifi-vendor-hide-access-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.java", 
+           "Xzrypr/src/**/*.java"],
 
-    aaptflags: ["--extra-packages com.factor.bouncy",],
+    resource_dirs: ["res",
+                    "Xzrypr/res"
+    ],
 
-    resource_dirs: ["res"],
+    aaptflags: ["--extra-packages com.factor.bouncy",
+                "--extra-packages com.xzrypr.settings",
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -70,6 +75,10 @@ android_library {
         "app-compat-annotations",
         "telephony-ext",
     ],
+
+    optimize: {
+        proguard_flags_files: ["proguard-core.flags"],
+    },
 }
 
 platform_compat_config {

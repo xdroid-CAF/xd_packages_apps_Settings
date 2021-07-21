@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2018 The Android Open Source Project
+     Copyright (C) 2021 xdroid, xyzprjkt
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,7 +15,6 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -27,36 +27,43 @@
         android:id="@+id/main_content_scrollable_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:overScrollMode="never"
         app:layout_behavior="com.android.settings.widget.FloatingAppBarScrollingViewBehavior">
 
         <LinearLayout
             android:id="@+id/homepage_container"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="wrap_content" 
+            android:orientation="vertical"
+            android:descendantFocusability="blocksDescendants">
 
-            <FrameLayout
-                android:id="@+id/contextual_cards_content"
+            <com.google.android.material.appbar.AppBarLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/contextual_card_side_margin"
-                android:layout_marginEnd="@dimen/contextual_card_side_margin"/>
+                android:touchscreenBlocksFocus="false"
+                android:keyboardNavigationCluster="false"
+                android:background="@android:color/transparent"
+                app:elevation="0dp">
+
+                <include
+                    layout="@layout/xd_dashboard_header"/>
+
+                <include 
+                    layout="@layout/search_bar"/>
+
+                <FrameLayout
+                    android:id="@+id/contextual_cards_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/xd_dashboard_contextual"/>
+            </com.google.android.material.appbar.AppBarLayout>
 
             <FrameLayout
                 android:id="@+id/main_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:animateLayoutChanges="true"
-                android:background="?android:attr/windowBackground"/>
+                android:animateLayoutChanges="true"/>
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
-
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:touchscreenBlocksFocus="false"
-        android:keyboardNavigationCluster="false">
-        <include layout="@layout/search_bar"/>
-    </com.google.android.material.appbar.AppBarLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

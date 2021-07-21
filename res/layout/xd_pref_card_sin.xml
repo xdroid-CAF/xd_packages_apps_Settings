@@ -21,7 +21,7 @@
     android:layout_height="wrap_content">
 
     <include
-        layout="@layout/xd_pref_no-icn-wid"
+        layout="@layout/xd_pref_no-icn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

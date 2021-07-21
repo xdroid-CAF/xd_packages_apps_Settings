@@ -19,8 +19,6 @@
     android:layout_height="wrap_content"
     android:minHeight="?android:attr/listPreferredItemHeightSmall"
     android:gravity="center_vertical"
-    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
-    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
     android:clipToPadding="false"
     android:baselineAligned="false">
 
@@ -38,17 +36,24 @@
             android:layout_height="wrap_content"
             android:ellipsize="marquee"
             android:singleLine="true"
-            style="@style/xd_text_primary" />
+            style="@style/xd_text_primary_medium" />
 
     </RelativeLayout>
 
-    <!-- Preference should place its actual preference widget here. -->
+    <!-- Next Navigation should be there -->
     <LinearLayout
-        android:id="@android:id/widget_frame"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:gravity="center"
         android:minWidth="64dp"
-        android:orientation="vertical" />
+        android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/xd_dashboard_icn-next"
+        android:tint="?android:attr/textColorPrimary" />
+
+    </LinearLayout>
 
 </LinearLayout>

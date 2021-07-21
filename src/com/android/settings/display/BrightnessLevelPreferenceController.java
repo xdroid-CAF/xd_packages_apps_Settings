@@ -13,6 +13,8 @@
  */
 package com.android.settings.display;
 
+import com.android.settings.R;
+
 import static com.android.settingslib.display.BrightnessUtils.GAMMA_SPACE_MAX;
 import static com.android.settingslib.display.BrightnessUtils.GAMMA_SPACE_MIN;
 import static com.android.settingslib.display.BrightnessUtils.convertLinearToGammaFloat;
@@ -109,6 +111,7 @@ public class BrightnessLevelPreferenceController extends AbstractPreferenceContr
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mPreference = screen.findPreference(KEY_BRIGHTNESS);
+        mPreference.setLayoutResource(R.layout.xd_pref_card_top);
     }
 
     @Override
