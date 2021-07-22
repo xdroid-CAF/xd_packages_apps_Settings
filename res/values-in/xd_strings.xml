@@ -45,8 +45,8 @@
 
     <!-- xd. About -->
     <string name="xd_about_desc">xdroid adalah CustomROM berbasis CAF yang berfokus pada UI yang sederhana dan minimalis dengan tetap menjaga kelancaran dan optimasi yang disediakan oleh Code Aurora Forum</string>
-    <string name="xd_about_core_xyzuan_role">Founder, Main Developer dan UI Designer</string>
-    <string name="xd_about_core_friction_role">UI dan UX Designer</string>
+    <string name="xd_about_core_xyzuan_role">Pendiri, Pengembang utama dan Desainer UI</string>
+    <string name="xd_about_core_friction_role">Desainer UI dan UX</string>
 
     <!-- xd. Preferences -->
     <string name="xd_firmware_info_summary">Informasi perangkat lunak di ponsel ini</string>
