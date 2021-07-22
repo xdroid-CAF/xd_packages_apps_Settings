@@ -79,19 +79,10 @@
     <!-- Security patch -->
     <Preference
         android:key="security_key"
-        android:layout="@layout/xd_pref_card_top"
+        android:layout="@layout/xd_pref_card_sin"
         android:title="@string/security_patch"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
-
-    <!-- Mainline module version -->
-    <Preference
-        android:key="module_version"
-        android:layout="@layout/xd_pref_card_bot"
-        android:title="@string/module_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>
 
     <!-- General Category -->
     <Preference
