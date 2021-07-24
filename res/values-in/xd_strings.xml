@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright 2021 a xdroid prjkt
+     Copyright 2021 xdroid, xyzprjkt
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,62 +15,126 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
+    <!-- xd. version -->
+    <string name="xd_version">Revisi XD</string>
+    <!-- CAF Revision -->
+    <string name="caf_rev">Revisi CAF</string>
     <!-- xd. fake toolbar -->
-    <string name="xd_firmware_info">Tentang perangkat lunak</string>
-    <string name="xd_hardware_info">Tentang perangkat keras</string>
+    <string name="xd_firmware_info">Informasi firmware</string>
+    <string name="xd_hardware_info">Informasi perangkat keras</string>
     <string name="xd_about_phone">Tentang ponsel</string>
     <string name="xd_about">Tentang xdroid</string>
-
     <!-- xd. Dashboard -->
-    <string name="xd_dashboard_greet">Apa yang sedang anda cari?</string>
-    <string name="xd_dashboard_device">Tentang perangkat</string>
+    <string name="xd_dashboard_greet">Apa yang sedang Anda cari?</string>
+    <string name="xd_dashboard_device">Tentang ponsel</string>
     <string name="xd_dashboard_account">Akun</string>
     <string name="xd_dashboard_network">Internet</string>
-    <string name="xd_dashboard_conectivity">Konektivitas</string>    
+    <string name="xd_dashboard_conectivity">Konektivitas</string>
     <string name="xd_dashboard_display">Tampilan</string>
     <string name="xd_dashboard_battery">Baterai</string>
     <string name="xd_dashboard_sound">Suara</string>
-    <string name="xd_dashboard_apps">Aplikasi dan notifikasi</string>    
+    <string name="xd_dashboard_apps">Aplikasi</string>
     <string name="xd_dashboard_storage">Penyimpanan</string>
-    <string name="xd_dashboard_privacy">Privasi</string>    
+    <string name="xd_dashboard_privacy">Privasi</string>
     <string name="xd_dashboard_location">Lokasi</string>
     <string name="xd_dashboard_security">Keamanan</string>
     <string name="xd_dashboard_accessibility">Aksesibilitas</string>
-    <string name="xd_dashboard_system">Lainnya</string>    
-    <string name="xd_dashboard_support">Support</string>
-
+    <string name="xd_dashboard_system">Lainnya</string>
+    <string name="xd_dashboard_support">Dukungan</string>
     <!-- xd. zxrypr -->
-    <string name="xd_dashboard_xzrypr_summary">Dapatkan kustomisasi favorit anda</string>
-
-    <!-- xd. About -->
-    <string name="xd_about_desc">xdroid adalah CustomROM berbasis CAF yang berfokus pada UI yang sederhana dan minimalis dengan tetap menjaga kelancaran dan optimasi yang disediakan oleh Code Aurora Forum</string>
-    <string name="xd_about_core_xyzuan_role">Pendiri, Pengembang utama dan Desainer UI</string>
-    <string name="xd_about_core_friction_role">Desainer UI dan UX</string>
-
+    <string name="xd_dashboard_xzrypr">xzrypr</string>
+    <string name="xd_dashboard_xzrypr_summary">Dapatkan kustomisasi favorit Anda</string>
     <!-- xd. Preferences -->
-    <string name="xd_firmware_info_summary">Informasi perangkat lunak di ponsel ini</string>
+    <string name="xd_firmware_info_summary">Informasi tentang firmware di ponsel ini</string>
     <string name="xd_hardware_info_summary">Informasi tentang perangkat keras di ponsel ini</string>
-    <string name="xd_device_owner">Pemilik</string>
-    <string name="xd_legal_information_summary">Informasi lisensi legalitas</string>
-    <string name="xd_regulatory_summary">Informasi regulator</string>
+    <string name="xd_device_owner">Nama pemilik</string>
+    <string name="xd_legal_information_summary">Informasi hukum lisensi legal</string>
+    <string name="xd_regulatory_summary">Informasi peraturan</string>
     <string name="xd_wifi_saved">Jaringan tersimpan</string>
-    <string name="dark_ui_mode_summary">Menerapkan tema gelap di perangkat ini</string>
-
+    <string name="blurs_effect">Efek blur</string>
+    <string name="dark_ui_mode_summary">Aktifkan Tema Gelap di perangkat ini</string>
     <!-- xd. Preferences Category -->
-    <string name="xd_about_phone_owner_cat">Informasi pengguna</string>
+    <string name="xd_about_phone_owner_cat">Informasi pemilik</string>
     <string name="xd_about_phone_information_cat">Informasi perangkat</string>
-    <string name="xd_about_phone_legalregulator_cat">Informasi Legalitas dan Regulator</string>
+    <string name="xd_about_phone_legalregulator_cat">Informasi Hukum dan Peraturan</string>
     <string name="xd_about_phone_network_cat">Informasi jaringan</string>
     <string name="xd_firmware_version_cat">Versi firmware</string>
     <string name="xd_firmware_security_cat">Keamanan firmware</string>
     <string name="xd_general_cat">Umum</string>
-
+    <string name="xd_category_ui">Antarmuka pengguna</string>
+    <string name="xd_category_screen">Layar</string>
+    <string name="xd_category_density">Kepadatan</string>
+    <string name="xd_category_gesture">Gestur layar</string>
+    <string name="xd_category_brightness">Kecerahan</string>
+    <string name="xd_about_core_team_cat">Pengembang utama</string>
+    <!-- xd. About -->
+    <string name="xd_about_desc">xdroid adalah ROM kustom berbasis CAF yang berfokus pada UI sederhana dan minimalis dengan tetap menjaga kelancaran dan pengoptimalan yang disediakan oleh Forum Code Aurora.</string>
+    <string name="xd_about_core_xyzuan">Jody Yuantoro</string>
+    <string name="xd_about_core_xyzuan_role">Pendiri, Pengembang Utama, dan Perancang UI</string>
+    <string name="xd_about_core_friction">Firman Yanuar</string>
+    <string name="xd_about_core_friction_role">Desainer UI dan UX</string>
     <!-- xd. About Phone -->
-    <string name="xd_device_name">Nama perangkat</string>
+    <string name="xd_device_name">Nama Perangkat</string>
+    <string name="xd_device_name_summary">Tidak diketahui</string>
     <string name="xd_chipset_type">Chipset</string>
+    <string name="xd_chipset_type_summary">Tidak diketahui</string>
     <string name="xd_gpu">GPU</string>
+    <string name="xd_gpu_summary">Tidak diketahui</string>
     <string name="xd_camera_mp">Kamera</string>
+    <string name="xd_camera_mp_summary">Tidak diketahui</string>
     <string name="xd_screen_type">Layar</string>
-
+    <string name="xd_screen_type_summary">Tidak diketahui</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Senter Cepat</string>
+    <string name="power_button_torch_summary">Saat layar mati, menekan lama tombol daya akan mengaktifkan senter</string>
+    <!-- Volume Control -->
+    <string name="volume_button_music_control_title">Kontrol pemutaran</string>
+    <string name="volume_button_music_control_summary">Saat layar mati, tekan lama tombol volume akan melewatkan trek musik</string>
+    <!-- Ambient Music -->
+    <string name="pulse_on_new_tracks_title">Ticker musik ambien</string>
+    <string name="pulse_on_new_tracks_summary">Tampilkan Tampilan Ambien saat trek musik baru diputar</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Usap untuk menangkap layar</string>
+    <string name="three_finger_gesture_summary">Usap ke bawah dengan tiga jari untuk mengambil tangkapan layar</string>
+    <!-- Traffic Indicator -->
+    <string name="trafficsettings_title">Indikator jaringan</string>
+    <string name="trafficsettings_summary">Pengaturan indikator jaringan Bilah Status/Header</string>
+    <string name="network_traffic_settings_title">Pemantau lalu lintas jaringan</string>
+    <string name="network_traffic_settings_summary">Tampilkan dan sesuaikan tingkat lalu lintas jaringan saat ini</string>
+    <string name="network_traffic_location_title">Lokasi</string>
+    <string name="network_traffic_location_disable">Dinonaktifkan</string>
+    <string name="network_traffic_location_statusbar">Bilah status</string>
+    <string name="network_traffic_location_quick_statusbar">Bilah Status Cepat</string>
+    <string name="network_traffic_mode_title">Mode tampilan</string>
+    <string name="network_traffic_mode_up">Hanya unggah</string>
+    <string name="network_traffic_mode_down">Hanya unduh</string>
+    <string name="network_traffic_mode_all">Unggah dan unduh</string>
+    <string name="network_traffic_autohide">Sembunyikan otomatis</string>
+    <string name="network_traffic_autohide_summary">Sembunyikan monitor lalu lintas saat tidak aktif</string>
+    <string name="network_traffic_autohide_kilobits">Kb/d</string>
+    <string name="network_traffic_autohide_kilobytes">KB/d</string>
+    <string name="network_traffic_autohide_threshold">Ambang batas tidak aktif</string>
+    <string name="network_traffic_show_units">Tampilkan unit</string>
+    <string name="network_traffic_show_units_summary">Apakah akan menampilkan unit pengukuran lalu lintas</string>
+    <string name="network_traffic_units_title">Unit pengukuran lalu lintas</string>
+    <string name="network_traffic_units_bits">Bit per detik (b/d)</string>
+    <string name="network_traffic_units_kilobits">Kilobit per detik (kb/d)</string>
+    <string name="network_traffic_units_megabits">Megabit per detik (Mb/d)</string>
+    <string name="network_traffic_units_bytes">Byte per detik (B/d)</string>
+    <string name="network_traffic_units_kilobytes">Kilobyte per detik (kB/d)</string>
+    <string name="network_traffic_units_megabytes">Megabyte per detik (MB/d)</string>
+    <string name="network_traffic_hidearrow">Sembunyikan panah</string>
+    <string name="network_traffic_hidearrow_summary">Sembunyikan panah indikator lalu lintas jaringan</string>
+    <string name="network_traffic_refresh_interval_title">Interval penyegaran</string>
+    <string name="network_traffic_refresh_interval_summary">Durasi setelah itu kecepatan diukur kembali</string>
+    <string name="unit_seconds">detik</string>
+    <!-- Support -->
+    <string name="ok">OK</string>
+    <string name="edit_hint">Nilai</string>
+    <string name="seek_value_edit_label">Atur nilai</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Nilai: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Bawaan</string>
+    <string name="custom_seekbar_default_value_to_set">Nilai bawaan: <xliff:g id="v">%s</xliff:g>\nTekan lama untuk menerapkan</string>
+    <string name="custom_seekbar_default_value_is_set">Nilai bawaan diterapkan</string>
 </resources>
