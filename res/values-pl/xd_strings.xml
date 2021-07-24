@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2021 xdroid, xyzprjkt
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- xd. version -->
+    <string name="xd_version">Wersja XD</string>
+    <!-- CAF Revision -->
+    <string name="caf_rev">wersja CAF</string>
+    <!-- xd. fake toolbar -->
+    <string name="xd_firmware_info">Informacje o oprogramowaniu</string>
+    <string name="xd_hardware_info">Informacje o urządzeniu</string>
+    <string name="xd_about_phone">O telefonie</string>
+    <string name="xd_about">Informacje o xdroid</string>
+    <!-- xd. Dashboard -->
+    <string name="xd_dashboard_greet">Czego szukasz?</string>
+    <string name="xd_dashboard_device">O telefonie</string>
+    <string name="xd_dashboard_account">Konto</string>
+    <string name="xd_dashboard_network">Internet</string>
+    <string name="xd_dashboard_conectivity">Łączność</string>
+    <string name="xd_dashboard_display">Wyświetlacz</string>
+    <string name="xd_dashboard_battery">Bateria</string>
+    <string name="xd_dashboard_sound">Dźwięk</string>
+    <string name="xd_dashboard_apps">Aplikacje</string>
+    <string name="xd_dashboard_storage">Pamięć</string>
+    <string name="xd_dashboard_privacy">Prywatność</string>
+    <string name="xd_dashboard_location">Lokalizacja</string>
+    <string name="xd_dashboard_security">Bezpieczeństwo</string>
+    <string name="xd_dashboard_accessibility">Dostępność</string>
+    <string name="xd_dashboard_system">Inne</string>
+    <string name="xd_dashboard_support">Wsparcie</string>
+    <!-- xd. zxrypr -->
+    <string name="xd_dashboard_xzrypr">xzrypr</string>
+    <string name="xd_dashboard_xzrypr_summary">Zdobądź swoje ulubione dostosowania</string>
+    <!-- xd. Preferences -->
+    <string name="xd_firmware_info_summary">Informacje o oprogramowaniu w tym telefonie</string>
+    <string name="xd_hardware_info_summary">Informacje o sprzęcie w tym telefonie</string>
+    <string name="xd_device_owner">Nazwa właściciela</string>
+    <string name="xd_legal_information_summary">Informacje prawne dotyczące licencji</string>
+    <string name="xd_regulatory_summary">Informacje regulacyjne</string>
+    <string name="xd_wifi_saved">Zapisana sieć</string>
+    <string name="blurs_effect">Efekt rozmycia</string>
+    <string name="dark_ui_mode_summary">Włącz ciemny motyw na tym urządzeniu</string>
+    <!-- xd. Preferences Category -->
+    <string name="xd_about_phone_owner_cat">Informacje o właścicielu</string>
+    <string name="xd_about_phone_information_cat">Informacje o urządzeniu</string>
+    <string name="xd_about_phone_legalregulator_cat">Informacje prawne i regulacyjne</string>
+    <string name="xd_about_phone_network_cat">Informacje o sieci</string>
+    <string name="xd_firmware_version_cat">Wersja oprogramowania</string>
+    <string name="xd_firmware_security_cat">Bezpieczeństwo oprogramowania</string>
+    <string name="xd_general_cat">Ogólne</string>
+    <string name="xd_category_ui">Interfejsy użytkownika</string>
+    <string name="xd_category_screen">Ekran</string>
+    <string name="xd_category_density">Zagęszczenie</string>
+    <string name="xd_category_gesture">Gesty ekranu</string>
+    <string name="xd_category_brightness">Jasność</string>
+    <string name="xd_about_core_team_cat">Główny programista</string>
+    <!-- xd. About -->
+    <string name="xd_about_desc">xdroid to niestandardowy ROM oparty na CAF, który koncentruje się na prostym i minimalnym interfejsie użytkownika, utrzymując jednocześnie płynność i optymalizację zapewnioną przez Code Aurora Forum.</string>
+    <string name="xd_about_core_xyzuan">Jody Yuantoro</string>
+    <string name="xd_about_core_xyzuan_role">Założyciel, główny programista i projektant interfejsu użytkownika</string>
+    <string name="xd_about_core_friction">Firman Yanuar</string>
+    <string name="xd_about_core_friction_role">Projektant interfejsu użytkownika i UX</string>
+    <!-- xd. About Phone -->
+    <string name="xd_device_name">Nazwa urządzenia</string>
+    <string name="xd_device_name_summary">Nieznane</string>
+    <string name="xd_chipset_type">Chipset</string>
+    <string name="xd_chipset_type_summary">Nieznane</string>
+    <string name="xd_gpu">GPU</string>
+    <string name="xd_gpu_summary">Nieznane</string>
+    <string name="xd_camera_mp">Aparat</string>
+    <string name="xd_camera_mp_summary">Nieznane</string>
+    <string name="xd_screen_type">Ekran</string>
+    <string name="xd_screen_type_summary">Nieznane</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Szybka latarka</string>
+    <string name="power_button_torch_summary">Gdy ekran jest wyłączony, długie naciśnięcie przycisku zasilania włączy latarkę</string>
+    <!-- Volume Control -->
+    <string name="volume_button_music_control_title">Kontrola odtwarzania</string>
+    <string name="volume_button_music_control_summary">Gdy ekran jest wyłączony, długie naciśnięcie klawiszy głośności pominie utwór</string>
+    <!-- Ambient Music -->
+    <string name="pulse_on_new_tracks_title">Etykieta muzyki na ekranie Ambient</string>
+    <string name="pulse_on_new_tracks_summary">Pokaż ekran dostosowany do otoczenia podczas odtwarzania nowej muzyki</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Przesuń, aby zrobić zrzut ekranu</string>
+    <string name="three_finger_gesture_summary">Przesuń w dół trzema palcami, aby zrobić zrzut ekranu</string>
+    <!-- Traffic Indicator -->
+    <string name="trafficsettings_title">Wskaźnik ruchu</string>
+    <string name="trafficsettings_summary">Ustawienia wskaźnika ruchu na pasku stanu/nagłówku</string>
+    <string name="network_traffic_settings_title">Monitor ruchu sieciowego</string>
+    <string name="network_traffic_settings_summary">Wyświetl i dostosuj bieżący poziom ruchu sieciowego</string>
+    <string name="network_traffic_location_title">Lokalizacja</string>
+    <string name="network_traffic_location_disable">Wyłączony</string>
+    <string name="network_traffic_location_statusbar">Pasek stanu</string>
+    <string name="network_traffic_location_quick_statusbar">Szybki pasek stanu</string>
+    <string name="network_traffic_mode_title">Tryb wyświetlania</string>
+    <string name="network_traffic_mode_up">Tylko wysyłanie</string>
+    <string name="network_traffic_mode_down">Tylko pobieranie</string>
+    <string name="network_traffic_mode_all">Wysyłanie i pobieranie</string>
+    <string name="network_traffic_autohide">Automatyczne ukrywanie</string>
+    <string name="network_traffic_autohide_summary">Ukryj monitor ruchu, gdy jest nieaktywny</string>
+    <string name="network_traffic_autohide_kilobits">Kb/s</string>
+    <string name="network_traffic_autohide_kilobytes">KB/s</string>
+    <string name="network_traffic_autohide_threshold">Próg braku aktywności</string>
+    <string name="network_traffic_show_units">Pokaż jednostki</string>
+    <string name="network_traffic_show_units_summary">Czy pokazać jednostki pomiaru ruchu</string>
+    <string name="network_traffic_units_title">Jednostki pomiaru ruchu</string>
+    <string name="network_traffic_units_bits">Bity na sekundę (b/s)</string>
+    <string name="network_traffic_units_kilobits">Kilobity na sekundę (kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabity na sekundę (Mb/s)</string>
+    <string name="network_traffic_units_bytes">Bajty na sekundę (B/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobajty na sekundę (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Megabajty na sekundę (MB/s)</string>
+    <string name="network_traffic_hidearrow">Ukryj strzałki</string>
+    <string name="network_traffic_hidearrow_summary">Ukryj strzałki wskaźnika ruchu sieciowego</string>
+    <string name="network_traffic_refresh_interval_title">Częstotliwość odświeżania</string>
+    <string name="network_traffic_refresh_interval_summary">Czas trwania, po którym prędkość jest ponownie mierzona</string>
+    <string name="unit_seconds">sek</string>
+    <!-- Support -->
+    <string name="ok">OK</string>
+    <string name="edit_hint">Wartość</string>
+    <string name="seek_value_edit_label">Ustaw wartość</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Wartość: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Domyślny</string>
+    <string name="custom_seekbar_default_value_to_set">Wartość domyślna: <xliff:g id="v">%s</xliff:g>\nPrzytrzymaj aby ustawić</string>
+    <string name="custom_seekbar_default_value_is_set">Domyślna wartość jest ustawiona</string>
+</resources>
