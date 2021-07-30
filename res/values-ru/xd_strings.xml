@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2021 xdroid, xyzprjkt
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- xd. version -->
+    <string name="xd_version">Версия XD</string>
+    <!-- CAF Revision -->
+    <string name="caf_rev">Версия CAF</string>
+    <!-- xd. fake toolbar -->
+    <string name="xd_firmware_info">Информация о прошивке</string>
+    <string name="xd_hardware_info">Информация об оборудовании</string>
+    <string name="xd_about_phone">О телефоне</string>
+    <string name="xd_about">О xdroid</string>
+    <!-- xd. Dashboard -->
+    <string name="xd_dashboard_greet">Вы что-то ищете?</string>
+    <string name="xd_dashboard_device">О телефоне</string>
+    <string name="xd_dashboard_account">Аккаунт</string>
+    <string name="xd_dashboard_network">Интернет</string>
+    <string name="xd_dashboard_conectivity">Связь</string>
+    <string name="xd_dashboard_display">Дисплей</string>
+    <string name="xd_dashboard_battery">Батарея</string>
+    <string name="xd_dashboard_sound">Звук</string>
+    <string name="xd_dashboard_apps">Приложения</string>
+    <string name="xd_dashboard_storage">Хранилище</string>
+    <string name="xd_dashboard_privacy">Приватность</string>
+    <string name="xd_dashboard_location">Местоположение</string>
+    <string name="xd_dashboard_security">Безопасность</string>
+    <string name="xd_dashboard_accessibility">Доступность</string>
+    <string name="xd_dashboard_system">Прочее</string>
+    <string name="xd_dashboard_support">Поддержка</string>
+    <!-- xd. zxrypr -->
+    <string name="xd_dashboard_xzrypr">xzrypr</string>
+    <string name="xd_dashboard_xzrypr_summary">Получите вашу любимую настройку</string>
+    <!-- xd. Preferences -->
+    <string name="xd_firmware_info_summary">Информация о прошивке</string>
+    <string name="xd_hardware_info_summary">Информация об оборудовании</string>
+    <string name="xd_device_owner">Имя владельца</string>
+    <string name="xd_legal_information_summary">Юридическая информация о лицензии</string>
+    <string name="xd_regulatory_summary">Правовая информация</string>
+    <string name="xd_wifi_saved">Сохранённая сеть</string>
+    <string name="blurs_effect">Эффект размытия</string>
+    <string name="dark_ui_mode_summary">Включить темную тему</string>
+    <!-- xd. Preferences Category -->
+    <string name="xd_about_phone_owner_cat">Информация о владельце</string>
+    <string name="xd_about_phone_information_cat">Информация об устройстве</string>
+    <string name="xd_about_phone_legalregulator_cat">Информация о правовом регулировании</string>
+    <string name="xd_about_phone_network_cat">Информация о сети</string>
+    <string name="xd_firmware_version_cat">Версия прошивки</string>
+    <string name="xd_firmware_security_cat">Обновление системы безопасности</string>
+    <string name="xd_general_cat">Общая информация</string>
+    <string name="xd_category_ui">Пользовательский интерфейс</string>
+    <string name="xd_category_screen">Экран</string>
+    <string name="xd_category_density">Плотность</string>
+    <string name="xd_category_gesture">Жесты</string>
+    <string name="xd_category_brightness">Яркость</string>
+    <string name="xd_about_core_team_cat">Главный разработчик</string>
+    <!-- xd. About -->
+    <string name="xd_about_desc">xdroid - это кастомная прошивка, основанное на CAF, которое фокусируется на простом и минималистичном пользовательском интерфейсе, сохраняя при этом плавность и оптимизацию, обеспечиваемую форумом Code Aurora.</string>
+    <string name="xd_about_core_xyzuan">Jody Yuantoro</string>
+    <string name="xd_about_core_xyzuan_role">Основатель, ведущий разработчик и UI дизайнер</string>
+    <string name="xd_about_core_friction">Firman Yanuar</string>
+    <string name="xd_about_core_friction_role">UI и UX дизайнер</string>
+    <!-- xd. About Phone -->
+    <string name="xd_device_name">Имя устройства</string>
+    <string name="xd_device_name_summary">Неизвестно</string>
+    <string name="xd_chipset_type">Процессор</string>
+    <string name="xd_chipset_type_summary">Неизвестно</string>
+    <string name="xd_gpu">GPU</string>
+    <string name="xd_gpu_summary">Неизвестно</string>
+    <string name="xd_camera_mp">Камера</string>
+    <string name="xd_camera_mp_summary">Неизвестно</string>
+    <string name="xd_screen_type">Экран</string>
+    <string name="xd_screen_type_summary">Неизвестно</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Быстрый доступ к фонарику</string>
+    <string name="power_button_torch_summary">Когда экран выключен, долгое нажатие кнопки питания включит фонарик</string>
+    <!-- Volume Control -->
+    <string name="volume_button_music_control_title">Управление воспроизведением</string>
+    <string name="volume_button_music_control_summary">Когда экран выключен, долгое нажатие кнопок громкости пропустит музыку</string>
+    <!-- Ambient Music -->
+    <string name="pulse_on_new_tracks_title">Тикер эмбиентной музыки</string>
+    <string name="pulse_on_new_tracks_summary">Показывать Ambient Display при воспроизведении новой музыкальной дорожки</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Проведите для создания скриншота</string>
+    <string name="three_finger_gesture_summary">Проведите тремя пальцами вниз, чтобы сделать скриншот</string>
+    <!-- Traffic Indicator -->
+    <string name="trafficsettings_title">Индикатор трафика</string>
+    <string name="trafficsettings_summary">Настройки индикатора трафика в строке состояния</string>
+    <string name="network_traffic_settings_title">Мониторинг сетевого трафика</string>
+    <string name="network_traffic_settings_summary">Отображение и настройка текущего уровня трафика</string>
+    <string name="network_traffic_location_title">Местоположение</string>
+    <string name="network_traffic_location_disable">Выключено</string>
+    <string name="network_traffic_location_statusbar">Строка состояния</string>
+    <string name="network_traffic_location_quick_statusbar">Панель быстрого состояния</string>
+    <string name="network_traffic_mode_title">Режим отображения</string>
+    <string name="network_traffic_mode_up">Только загрузка</string>
+    <string name="network_traffic_mode_down">Скачать только</string>
+    <string name="network_traffic_mode_all">Загрузить и скачать</string>
+    <string name="network_traffic_autohide">Авто-скрытие</string>
+    <string name="network_traffic_autohide_summary">Скрыть монитор трафика, когда он неактивен</string>
+    <string name="network_traffic_autohide_kilobits">Кб/с</string>
+    <string name="network_traffic_autohide_kilobytes">КБ/с</string>
+    <string name="network_traffic_autohide_threshold">Порог бездействия</string>
+    <string name="network_traffic_show_units">Показать единицы</string>
+    <string name="network_traffic_show_units_summary">Показывать ли единицы измерения трафика</string>
+    <string name="network_traffic_units_title">Единицы измерения трафика</string>
+    <string name="network_traffic_units_bits">Бит в секунду (бит/с)</string>
+    <string name="network_traffic_units_kilobits">Килобайт в секунду (кб/с)</string>
+    <string name="network_traffic_units_megabits">Мегабит в секунду (Мб/с)</string>
+    <string name="network_traffic_units_bytes">Байт в секунду (Б/с)</string>
+    <string name="network_traffic_units_kilobytes">Килобайт в секунду (кБ/с)</string>
+    <string name="network_traffic_units_megabytes">Мегабайт в секунду (МБ/с)</string>
+    <string name="network_traffic_hidearrow">Скрыть стрелки</string>
+    <string name="network_traffic_hidearrow_summary">Скрыть стрелки индикатора сетевого трафика</string>
+    <string name="network_traffic_refresh_interval_title">Интервал обновления</string>
+    <string name="network_traffic_refresh_interval_summary">Продолжительность, после которой выполняется повторное измерение скорости</string>
+    <string name="unit_seconds">сек</string>
+    <!-- Support -->
+    <string name="ok">ОК</string>
+    <string name="edit_hint">Значение</string>
+    <string name="seek_value_edit_label">Установить значение</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Стоимость: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">По умолчанию</string>
+    <string name="custom_seekbar_default_value_to_set">Значение по умолчанию: <xliff:g id="v">%s</xliff:g>\nДолгое нажатие для установки</string>
+    <string name="custom_seekbar_default_value_is_set">Значение по умолчанию установлено</string>
+</resources>
