@@ -75,15 +75,10 @@
     <string name="xd_about_core_friction_role">Projektant interfejsu użytkownika i UX</string>
     <!-- xd. About Phone -->
     <string name="xd_device_name">Nazwa urządzenia</string>
-    <string name="xd_device_name_summary">Nieznane</string>
     <string name="xd_chipset_type">Chipset</string>
-    <string name="xd_chipset_type_summary">Nieznane</string>
     <string name="xd_gpu">GPU</string>
-    <string name="xd_gpu_summary">Nieznane</string>
     <string name="xd_camera_mp">Aparat</string>
-    <string name="xd_camera_mp_summary">Nieznane</string>
     <string name="xd_screen_type">Ekran</string>
-    <string name="xd_screen_type_summary">Nieznane</string>
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Szybka latarka</string>
     <string name="power_button_torch_summary">Gdy ekran jest wyłączony, długie naciśnięcie przycisku zasilania włączy latarkę</string>

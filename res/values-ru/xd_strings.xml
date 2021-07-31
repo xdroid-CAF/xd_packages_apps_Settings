@@ -75,15 +75,10 @@
     <string name="xd_about_core_friction_role">UI и UX дизайнер</string>
     <!-- xd. About Phone -->
     <string name="xd_device_name">Имя устройства</string>
-    <string name="xd_device_name_summary">Неизвестно</string>
     <string name="xd_chipset_type">Процессор</string>
-    <string name="xd_chipset_type_summary">Неизвестно</string>
     <string name="xd_gpu">GPU</string>
-    <string name="xd_gpu_summary">Неизвестно</string>
     <string name="xd_camera_mp">Камера</string>
-    <string name="xd_camera_mp_summary">Неизвестно</string>
     <string name="xd_screen_type">Экран</string>
-    <string name="xd_screen_type_summary">Неизвестно</string>
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Быстрый доступ к фонарику</string>
     <string name="power_button_torch_summary">Когда экран выключен, долгое нажатие кнопки питания включит фонарик</string>

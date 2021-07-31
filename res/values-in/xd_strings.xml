@@ -75,15 +75,10 @@
     <string name="xd_about_core_friction_role">Desainer UI dan UX</string>
     <!-- xd. About Phone -->
     <string name="xd_device_name">Nama Perangkat</string>
-    <string name="xd_device_name_summary">Tidak diketahui</string>
     <string name="xd_chipset_type">Chipset</string>
-    <string name="xd_chipset_type_summary">Tidak diketahui</string>
     <string name="xd_gpu">GPU</string>
-    <string name="xd_gpu_summary">Tidak diketahui</string>
     <string name="xd_camera_mp">Kamera</string>
-    <string name="xd_camera_mp_summary">Tidak diketahui</string>
     <string name="xd_screen_type">Layar</string>
-    <string name="xd_screen_type_summary">Tidak diketahui</string>
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Senter Cepat</string>
     <string name="power_button_torch_summary">Saat layar mati, menekan lama tombol daya akan mengaktifkan senter</string>
