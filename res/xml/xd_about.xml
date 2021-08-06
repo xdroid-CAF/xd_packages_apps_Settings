@@ -73,4 +73,37 @@
 
     </Preference>
 
+    <!-- Contributor Category -->
+    <Preference
+        android:key="xd_about_contributor"
+        android:layout="@layout/xd_pref_category"
+        android:title="@string/xd_about_contributor_cat"
+        android:selectable="false"/>
+
+    <!-- rdclxvi -->
+    <Preference
+        android:layout="@layout/xd_about_core_pref"
+        android:icon="@drawable/xd_about_rdclxvi"
+        android:title="@string/xd_about_contributor_rdclxvi"
+        android:summary="@string/xd_about_contributor_rdclxvi_role">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/rdclxvi"/>
+
+    </Preference>
+
+    <!-- iszon -->
+    <Preference
+        android:layout="@layout/xd_about_core_pref"
+        android:icon="@drawable/xd_about_unknown"
+        android:title="@string/xd_about_contributor_iszon"
+        android:summary="@string/xd_about_contributor_iszon_role">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/iszon"/>
+
+    </Preference>
+
 </PreferenceScreen>
