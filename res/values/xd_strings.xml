@@ -74,6 +74,7 @@
     <string name="xd_category_gesture">Screen gestures</string>
     <string name="xd_category_brightness">Brightness</string>
     <string name="xd_about_core_team_cat">Core developer</string>
+    <string name="xd_about_contributor_cat">Contributor</string>
 
     <!-- xd. About -->
     <string name="xd_about_desc">xdroid is a custom ROM based on CAF which focusing on simple and minimalism UI while keep maintaining the smoothness and optimization provided by Code Aurora Forum.</string>
@@ -81,6 +82,10 @@
     <string name="xd_about_core_xyzuan_role">Founder, Lead Developer and UI Designer</string>
     <string name="xd_about_core_friction">Firman Yanuar</string>
     <string name="xd_about_core_friction_role">UI and UX Designer</string>
+    <string name="xd_about_contributor_rdclxvi">Royan AK</string>
+    <string name="xd_about_contributor_rdclxvi_role">Indonesia Translator</string>
+    <string name="xd_about_contributor_iszon">Iszon</string>
+    <string name="xd_about_contributor_iszon_role">Polish Translator</string>
 
     <!-- xd. About Phone -->
     <string name="xd_device_name">Device Name</string>
@@ -157,8 +162,5 @@
     <!-- Swipe up for face unlock -->
     <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
     <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
-
-    <!-- Cellular -->
-    <string name="cellular_data_title">Cellular</string>
 
 </resources>

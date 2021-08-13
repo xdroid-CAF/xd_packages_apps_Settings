@@ -67,12 +67,17 @@
     <string name="xd_category_gesture">Gestur layar</string>
     <string name="xd_category_brightness">Kecerahan</string>
     <string name="xd_about_core_team_cat">Pengembang utama</string>
+    <string name="xd_about_contributor_cat">Kontributor</string>
     <!-- xd. About -->
     <string name="xd_about_desc">xdroid adalah ROM kustom berbasis CAF yang berfokus pada UI sederhana dan minimalis dengan tetap menjaga kelancaran dan pengoptimalan yang disediakan oleh Forum Code Aurora.</string>
     <string name="xd_about_core_xyzuan">Jody Yuantoro</string>
     <string name="xd_about_core_xyzuan_role">Pendiri, Pengembang Utama, dan Perancang UI</string>
     <string name="xd_about_core_friction">Firman Yanuar</string>
     <string name="xd_about_core_friction_role">Desainer UI dan UX</string>
+    <string name="xd_about_contributor_rdclxvi">Royan AK</string>
+    <string name="xd_about_contributor_rdclxvi_role">Penerjemah Indonesia</string>
+    <string name="xd_about_contributor_iszon">Iszon</string>
+    <string name="xd_about_contributor_iszon_role">Penerjemah Polish</string>
     <!-- xd. About Phone -->
     <string name="xd_device_name">Nama Perangkat</string>
     <string name="xd_chipset_type">Chipset</string>
