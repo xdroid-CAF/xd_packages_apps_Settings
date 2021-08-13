@@ -171,7 +171,7 @@ public class DataUsageSummary extends DataUsageBaseFragment implements DataUsage
     }
 
     @VisibleForTesting
-    public boolean hasActiveSubscription() {
+    boolean hasActiveSubscription() {
         final List<SubscriptionInfo> subInfoList =
                 mProxySubscriptionMgr.getActiveSubscriptionsInfo();
         return ((subInfoList != null) && (subInfoList.size() > 0));
