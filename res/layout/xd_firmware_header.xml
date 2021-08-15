@@ -16,7 +16,7 @@
 -->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/xd_firmware_header"
-    style="@style/xd_pref_card_sin"
+    style="@style/xd_pref_card_firmware-header"
     android:layout_width="match_parent"
     android:layout_height="125dp">
     <RelativeLayout
