@@ -20,10 +20,10 @@
         <shape>
             <solid android:color="#FFFFFFFF" />
             <corners
-                android:topRightRadius="8dp"
-                android:topLeftRadius="8dp"
-                android:bottomLeftRadius="8dp"
-                android:bottomRightRadius="8dp" />
+                android:topRightRadius="@dimen/xd_pref_card_radius"
+                android:topLeftRadius="@dimen/xd_pref_card_radius"
+                android:bottomLeftRadius="@dimen/xd_pref_card_radius"
+                android:bottomRightRadius="@dimen/xd_pref_card_radius" />
         </shape>
     </item>
     <item android:id="@android:id/background">
@@ -34,10 +34,10 @@
                 android:startColor="@color/xd_pref_card_color_firmware-header_start"
                 android:endColor="@color/xd_pref_card_color_firmware-header_end" />
             <corners
-                android:topRightRadius="8dp"
-                android:topLeftRadius="8dp"
-                android:bottomLeftRadius="8dp"
-                android:bottomRightRadius="8dp" />
+                android:topRightRadius="@dimen/xd_pref_card_radius"
+                android:topLeftRadius="@dimen/xd_pref_card_radius"
+                android:bottomLeftRadius="@dimen/xd_pref_card_radius"
+                android:bottomRightRadius="@dimen/xd_pref_card_radius" />
         </shape>
     </item>
 </ripple>
