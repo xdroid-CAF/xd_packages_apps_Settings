@@ -28,13 +28,14 @@
             android:scaleType="fitStart"
             android:src="@drawable/xd_firmware_header_bg" />
     <TextView
-        android:textSize="60dp"
-        android:gravity="end|center"
-        android:fontFamily="@font/Poppins-ExtraBoldItalic"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="end|center"
         android:paddingTop="15dp"
-        android:text="xdroid "
-        android:textColor="#ffffff" />
+        android:text="xdroid  "
+        android:textColor="#ffffff"
+        android:textSize="60dp"
+        android:fontFamily="@font/Poppins-ExtraBoldItalic"
+        android:letterSpacing="-0.04" />
     </RelativeLayout>
 </FrameLayout>
