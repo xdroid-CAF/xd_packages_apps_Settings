@@ -23,4 +23,8 @@
      <!-- xzrypr -->
      <color name="xd_dashboard_xzrypr">#33FFFFFF</color>
      
+     <!-- xd. Firmware Header -->
+     <color name="xd_pref_card_color_firmware-header_start">#9c2426</color>
+     <color name="xd_pref_card_color_firmware-header_end">#de2c30</color>
+
 </resources>

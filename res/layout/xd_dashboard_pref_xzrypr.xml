@@ -54,7 +54,6 @@
             android:maxLines="10"
             android:layout_marginTop="2dp"
             android:paddingBottom="16dp"
-            android:textColor="?android:attr/colorAccent"
             style="@style/xd_text_highlight_secondary" />
 
     </RelativeLayout>

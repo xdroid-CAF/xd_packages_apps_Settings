@@ -41,7 +41,8 @@
 
     <style name="xd_text_highlight_secondary">
         <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+        <item name="android:textColor">?android:attr/colorAccent</item>
+        <item name="android:alpha">0.7</item>
     </style>
 
     <style name="xd_pref_card_top">
@@ -164,6 +165,16 @@
         <item name="android:layout_marginStart">16dp</item>
         <item name="android:layout_marginEnd">16dp</item>
         <item name="android:background">@drawable/xd_pref_card_bot</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <!-- xd. Firmware Header Style -->
+    <style name="xd_pref_card_firmware-header">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_firmware-header</item>
         <item name="android:clipToPadding">false</item>
     </style>
 
