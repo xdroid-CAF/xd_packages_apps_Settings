@@ -26,6 +26,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitStart"
-            android:src="@drawable/xd_firmware_header_bg" />
+            android:src="@drawable/xd_firmware_about_header_logo" />
     </RelativeLayout>
 </FrameLayout>
