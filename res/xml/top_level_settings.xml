@@ -122,14 +122,14 @@
 
     <Preference
         android:key="top_level_system"
-        android:order="1"
+        android:order="150"
         android:title="@string/xd_dashboard_system"
         android:layout="@layout/xd_dashboard_pref_bot"
         android:fragment="com.android.settings.system.SystemDashboardFragment"/>
 
     <Preference
         android:key="top_level_support"
-        android:order="2"
+        android:order="200"
         android:title="@string/xd_dashboard_support"
         settings:controller="com.android.settings.support.SupportPreferenceController"/>
 
