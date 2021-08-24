@@ -1,5 +1,4 @@
 /*
- * Copyright (C) 2020 The Android Open Source Project
  * Copyright (C) 2020 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,10 +16,12 @@
 
 package com.android.settings.display;
 
+import static android.provider.Settings.System.MIN_REFRESH_RATE;
+import static android.provider.Settings.System.PEAK_REFRESH_RATE;
+
 import android.content.Context;
 import android.provider.Settings;
 import android.view.Display;
-import static android.provider.Settings.System.PEAK_REFRESH_RATE;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -31,17 +32,16 @@ import com.android.settings.core.BasePreferenceController;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
-public class PeakRefreshRatePreferenceController extends BasePreferenceController implements
+public class MinRefreshRatePreferenceController extends BasePreferenceController implements
         Preference.OnPreferenceChangeListener {
 
-    private static final String KEY_PEAK_REFRESH_RATE = "peak_refresh_rate";
+    private static final String KEY_MIN_REFRESH_RATE = "min_refresh_rate";
 
     private ListPreference mListPreference;
 
-    public PeakRefreshRatePreferenceController(Context context) {
-        super(context, KEY_PEAK_REFRESH_RATE);
+    public MinRefreshRatePreferenceController(Context context) {
+        super(context, KEY_MIN_REFRESH_RATE);
     }
 
     @Override
@@ -52,9 +52,8 @@ public class PeakRefreshRatePreferenceController extends BasePreferenceControlle
     }
 
     @Override
-
     public String getPreferenceKey() {
-        return KEY_PEAK_REFRESH_RATE;
+        return KEY_MIN_REFRESH_RATE;
     }
 
     @Override
@@ -67,9 +66,8 @@ public class PeakRefreshRatePreferenceController extends BasePreferenceControlle
         for (Display.Mode m : modes) {
             if (m.getPhysicalWidth() == mode.getPhysicalWidth() &&
                     m.getPhysicalHeight() == mode.getPhysicalHeight()) {
-                entries.add(String.format("%.02fHz", m.getRefreshRate())
-                        .replaceAll("[\\.,]00", ""));
-                values.add(String.format(Locale.US, "%.02f", m.getRefreshRate()));
+			entries.add(String.format("%dHz", Math.round(m.getRefreshRate())));
+			values.add(String.format("%d", Math.round(m.getRefreshRate())));
             }
         }
         mListPreference.setEntries(entries.toArray(new String[entries.size()]));
@@ -80,12 +78,11 @@ public class PeakRefreshRatePreferenceController extends BasePreferenceControlle
 
     @Override
     public void updateState(Preference preference) {
-        final float defaultRefreshRate = (float) mContext.getResources().getInteger(
-                        com.android.internal.R.integer.config_defaultPeakRefreshRate);
-        final float currentValue = Settings.System.getFloat(mContext.getContentResolver(),
-                PEAK_REFRESH_RATE, defaultRefreshRate);
-        int index = mListPreference.findIndexOfValue(
-                String.format(Locale.US, "%.02f", currentValue));
+        final int defaultRefreshRate = (int) mContext.getResources().getInteger(
+					 com.android.internal.R.integer.config_defaultRefreshRate);
+        final int currentValue = Settings.System.getInt(mContext.getContentResolver(),
+				   MIN_REFRESH_RATE, defaultRefreshRate);
+        int index = mListPreference.findIndexOfValue(Integer.toString(currentValue));
         if (index < 0) index = 0;
         mListPreference.setValueIndex(index);
         mListPreference.setSummary(mListPreference.getEntries()[index]);
@@ -93,10 +90,10 @@ public class PeakRefreshRatePreferenceController extends BasePreferenceControlle
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        Settings.System.putFloat(mContext.getContentResolver(), PEAK_REFRESH_RATE,
-                Float.valueOf((String) newValue));
-        updateState(preference);
+	    int newRefreshRate = Integer.valueOf((String) newValue);
+	    Settings.System.putInt(mContext.getContentResolver(), MIN_REFRESH_RATE, newRefreshRate);
+	    Settings.System.putInt(mContext.getContentResolver(), PEAK_REFRESH_RATE, newRefreshRate);
+	    updateState(preference);
         return true;
     }
-
 }
