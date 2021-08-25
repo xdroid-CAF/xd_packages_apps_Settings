@@ -171,10 +171,17 @@
     <!-- xd. Firmware Header Style -->
     <style name="xd_pref_card_firmware-header">
         <item name="android:layout_marginTop">4dp</item>
-        <item name="android:layout_marginBottom">4dp</item>
         <item name="android:layout_marginStart">16dp</item>
         <item name="android:layout_marginEnd">16dp</item>
         <item name="android:background">@drawable/xd_pref_card_firmware-header</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <!-- xd. Firmware Updater Style -->
+    <style name="xd_pref_card_firmware-updater">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/xd_pref_card_firmware-updater</item>
         <item name="android:clipToPadding">false</item>
     </style>
 

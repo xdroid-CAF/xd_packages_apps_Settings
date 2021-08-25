@@ -34,6 +34,17 @@
         android:key="xd_fw_header"
         android:layout="@layout/xd_firmware_header"
         android:fragment="com.android.settings.deviceinfo.aboutxd.AboutXDFragments"/>
+    
+    <!-- xd. updates -->
+    <Preference
+        android:key="system_update_settings"
+        android:layout="@layout/xd_firmware_updater"
+        android:title="@string/system_update_settings_list_item_title"
+        android:summary="@string/summary_placeholder"
+        settings:keywords="@string/keywords_system_update_settings"
+        settings:controller="com.android.settings.system.SystemUpdatePreferenceController">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS"/>
+    </Preference>
 
     <!-- Firmware Category -->
     <Preference
