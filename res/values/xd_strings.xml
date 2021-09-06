@@ -59,6 +59,8 @@
     <string name="xd_wifi_saved">Saved network</string>
     <string name="blurs_effect">Blur effect</string>
     <string name="dark_ui_mode_summary">Enable Dark Theme in this devices</string>
+    <string name="xd_updater">System update</string>
+    <string name="xd_updater_summary">Tap here to check latest latest firmware update</string>
 
     <!-- xd. Preferences Category -->
     <string name="xd_about_phone_owner_cat">Owner information</string>

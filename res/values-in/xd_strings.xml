@@ -52,6 +52,8 @@
     <string name="xd_wifi_saved">Jaringan tersimpan</string>
     <string name="blurs_effect">Efek blur</string>
     <string name="dark_ui_mode_summary">Aktifkan Tema Gelap di perangkat ini</string>
+    <string name="xd_updater">Pembaharuan sistem</string>
+    <string name="xd_updater_summary">Tekan disini untuk mengecek pembaruan firmware terbaru</string>
     <!-- xd. Preferences Category -->
     <string name="xd_about_phone_owner_cat">Informasi pemilik</string>
     <string name="xd_about_phone_information_cat">Informasi perangkat</string>
