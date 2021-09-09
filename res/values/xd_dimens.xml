@@ -22,5 +22,8 @@
      <!-- xd. Dashboard -->
      <dimen name="xd_dashboard_header_height">225dp</dimen>
      <dimen name="xd_dashboard_search_height">48dp</dimen>
+     <dimen name="xd_contextual_card_top_margin">16dp</dimen>
+     <dimen name="xd_contextual_card_bottom_margin">0dp</dimen>
+     <dimen name="xd_contextual_card_side_margin">0dp</dimen>
 
 </resources>
