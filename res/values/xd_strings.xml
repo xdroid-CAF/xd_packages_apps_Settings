@@ -193,4 +193,44 @@
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 
+    <!-- App Lock -->
+    <string name="applock_title">App locker</string>
+    <string name="applock_locked">Locked</string>
+    <string name="applock_unlocked">Unlocked</string>
+    <string name="applock_locked_apps">Locked apps</string>
+    <string name="applock_unlocked_apps">Unlocked apps</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
+    <string name="applock_show_notif">Showing notification content</string>
+    <string name="applock_hide_notif">Hiding notification content</string>
+    <string name="applock_setup">Setup app locker</string>
+    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 app locked</item>
+        <item quantity="other">%d apps locked</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">This will reset battery history stats. Would you like to continue?</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Locate the fingerprint sensor on the <xliff:g id="sensor_location">%1$s</xliff:g> of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Locate the fingerprint sensor on the <xliff:g id="sensor_location">%1$s</xliff:g> of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Locate the fingerprint sensor on the <xliff:g id="sensor_location">%1$s</xliff:g> of your phone.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">back</string>
+    <string name="security_settings_fingerprint_sensor_location_front">front</string>
+    <string name="security_settings_fingerprint_sensor_location_left">left side</string>
+    <string name="security_settings_fingerprint_sensor_location_right">right side</string>
+
 </resources>
