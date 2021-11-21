@@ -32,6 +32,7 @@ android_library {
            "Xzrypr/src/**/*.java"],
 
     resource_dirs: ["res",
+                    "res-xdui",
                     "Xzrypr/res"
     ],
 
