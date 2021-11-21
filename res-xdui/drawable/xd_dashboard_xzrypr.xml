@@ -28,7 +28,7 @@
     </item>
     <item android:id="@android:id/background">
         <shape android:shape="rectangle" android:tint="?android:colorAccent">
-            <solid android:color="@color/xd_dashboard_xzrypr" />
+            <solid android:color="@color/xd_pref_card_opaque" />
             <corners
                 android:topRightRadius="@dimen/xd_pref_card_radius"
                 android:topLeftRadius="@dimen/xd_pref_card_radius"
