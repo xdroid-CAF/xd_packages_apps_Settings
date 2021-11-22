@@ -30,7 +30,7 @@
         android:id="@+id/search_action_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/xd_dashboard_search_height"
-        android:background="@drawable/xd_pref_card_bot"
+        android:background="@drawable/xd_pref_card_sin"
         android:contentInsetStartWithNavigation="@dimen/search_bar_content_inset"
         android:navigationIcon="@drawable/ic_homepage_search">
     </Toolbar>
