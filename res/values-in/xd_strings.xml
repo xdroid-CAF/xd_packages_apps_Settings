@@ -25,7 +25,7 @@
     <string name="xd_about_phone">Tentang ponsel</string>
     <string name="xd_about">Tentang xdroid</string>
     <!-- xd. Dashboard -->
-    <string name="xd_dashboard_greet">Apa yang sedang Anda cari?</string>
+    <string name="xd_dashboard_greet">Apa yang sedang anda cari?</string>
     <string name="xd_dashboard_device">Tentang ponsel</string>
     <string name="xd_dashboard_account">Akun</string>
     <string name="xd_dashboard_network">Internet</string>
