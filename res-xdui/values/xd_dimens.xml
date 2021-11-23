@@ -29,4 +29,8 @@
      <!-- Fingerprint -->
      <dimen name="fingerprint_find_sensor_padding_top">16dp</dimen>
 
+     <!-- xd. About Phone -->
+     <dimen name="xd_about_phone_ill_height">250dp</dimen>
+     <dimen name="xd_about_phone_ill_width">120dp</dimen>
+
 </resources>

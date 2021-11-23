@@ -128,8 +128,8 @@
 
     <ImageView
         android:id="@+id/xd_about_phone_header_illustration"
-        android:layout_width="120dp"
-        android:layout_height="250dp"
+        android:layout_width="@dimen/xd_about_phone_ill_width"
+        android:layout_height="@dimen/xd_about_phone_ill_height"
         android:gravity="center"
         android:orientation="vertical"
         android:src="@drawable/xd_about_phone_header_ill"
