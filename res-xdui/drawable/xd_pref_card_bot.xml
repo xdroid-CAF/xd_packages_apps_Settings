@@ -20,14 +20,19 @@
         <shape>
             <solid android:color="#FFFFFFFF" />
             <corners
+                android:topRightRadius="@dimen/xd_pref_card_radius-outer"
+                android:topLeftRadius="@dimen/xd_pref_card_radius-outer"
                 android:bottomLeftRadius="@dimen/xd_pref_card_radius"
-                android:bottomRightRadius="@dimen/xd_pref_card_radius" />
+                android:bottomRightRadius="@dimen/xd_pref_card_radius"
+                 />
         </shape>
     </item>
     <item android:id="@android:id/background">
         <shape android:shape="rectangle">
             <solid android:color="@color/xd_pref_card_color" />
             <corners
+                android:topRightRadius="@dimen/xd_pref_card_radius-outer"
+                android:topLeftRadius="@dimen/xd_pref_card_radius-outer"
                 android:bottomLeftRadius="@dimen/xd_pref_card_radius"
                 android:bottomRightRadius="@dimen/xd_pref_card_radius" />
         </shape>

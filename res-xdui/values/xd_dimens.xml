@@ -17,7 +17,8 @@
 <resources>
 
      <!-- xd. Preference Card -->
-     <dimen name="xd_pref_card_radius">8dp</dimen>
+     <dimen name="xd_pref_card_radius">16dp</dimen>
+     <dimen name="xd_pref_card_radius-outer">8dp</dimen>
 
      <!-- xd. Dashboard -->
      <dimen name="xd_dashboard_header_height">225dp</dimen>
