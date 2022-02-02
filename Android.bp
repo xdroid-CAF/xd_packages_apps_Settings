@@ -29,7 +29,9 @@ android_library {
     ],
 
     srcs: ["src/**/*.java", 
-           "Xzrypr/src/**/*.java"],
+           "Xzrypr/src/**/*.java",
+           "src-xdui/**/*.java"
+    ],
 
     resource_dirs: ["res",
                     "res-xdui",
