@@ -118,11 +118,11 @@
         <item name="android:layout_marginEnd">16dp</item>
     </style>
 
-    <style name="xd_dashboard_xzrypr">
+    <style name="xd_dashboard_about_phone">
         <item name="android:layout_marginTop">16dp</item>
         <item name="android:layout_marginStart">16dp</item>
         <item name="android:layout_marginEnd">16dp</item>
-        <item name="android:background">@drawable/xd_dashboard_xzrypr</item>
+        <item name="android:background">@drawable/xd_pref_card_sin</item>
         <item name="android:clipToPadding">false</item>
     </style>
 
@@ -193,6 +193,18 @@
         <item name="android:layout_marginEnd">16dp</item>
         <item name="android:background">@drawable/xd_pref_card_firmware-updater</item>
         <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="xd_dashboard_pref_phone_corner_base" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/xd_dashboard_pref_phone_corner</item>
+    </style>
+
+    <style name="xd_dashboard_pref_phone_corner" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">18dp</item>
+        <item name="cornerSizeTopLeft">18dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
     </style>
 
 </resources>
