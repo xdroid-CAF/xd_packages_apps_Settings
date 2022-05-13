@@ -3937,6 +3937,7 @@
     <string name="notification_channel_summary_low" msgid="5549662596677692000">"Bez zvuka ili vibracije"</string>
     <string name="notification_conversation_summary_low" msgid="6352818857388412326">"Bez zvuka ili vibracije i prikazuje se pri dnu odjeljka razgovora"</string>
     <string name="notification_channel_summary_default" msgid="3674057458265438896">"Možda će zvoniti ili vibrirati, ovisno o postavkama telefona"</string>
+
     <string name="notification_channel_summary_low_status" msgid="7866565328564018007">"Prikazuje obavijesti nižeg prioriteta. Uvijek bešumno."</string>
     <string name="notification_channel_summary_low_lock" msgid="4009247523075328235">"Prikazuje obavijesti nižeg prioriteta. Uvijek bešumno."</string>
     <string name="notification_channel_summary_low_status_lock" msgid="3668028634045057230">"Prikazuje obavijesti nižeg prioriteta. Uvijek bešumno."</string>

@@ -19,6 +19,8 @@ package com.android.settings.wifi;
 import static android.Manifest.permission.ACCESS_COARSE_LOCATION;
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 
+
+import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -33,6 +35,7 @@ import android.os.Process;
 import android.os.SimpleClock;
 import android.os.SystemClock;
 import android.text.TextUtils;
+
 import android.util.EventLog;
 import android.util.Log;
 
@@ -94,6 +97,7 @@ public class WifiDialogActivity extends ObservableActivity implements WifiDialog
     private static final long MAX_SCAN_AGE_MILLIS = 15_000;
     // Interval between initiating NetworkDetailsTracker scans.
     private static final long SCAN_INTERVAL_MILLIS = 10_000;
+
 
     private WifiDialog mDialog;
     private AccessPoint mAccessPoint;

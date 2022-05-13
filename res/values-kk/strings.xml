@@ -3887,11 +3887,13 @@
     <string name="convo_not_supported_summary" msgid="4285471045268268048">"<xliff:g id="APP_NAME">%1$s</xliff:g> қолданбасы әңгіме функцияларының көбісін қолдамайды. Әңгімені маңызды деп орната алмайсыз және олар қалқыма хабарлар түрінде шықпайды."</string>
     <string name="notification_channel_summary_min" msgid="8823399508450176842">"Ашылмалы мәзірде хабарландыруларды бір жолға жию"</string>
     <string name="notification_channel_summary_low" msgid="5549662596677692000">"Дыбыс не діріл болмайды."</string>
-    <string name="notification_conversation_summary_low" msgid="6352818857388412326">"Дыбыс не діріл болмайды, әңгімелер бөлімінің төмен жағында тұрады."</string>    
     <string name="notification_channel_summary_default" msgid="3674057458265438896">"Телефон параметрлеріне байланысты дыбыстық сигнал не діріл болуы мүмкін."</string>    
     <string name="notification_channel_summary_low_status" msgid="7866565328564018007">"Маңыздылығы төмен хабарландыруларды көрсетеді. Үнемі дыбыссыз режимде болады."</string>
     <string name="notification_channel_summary_low_lock" msgid="4009247523075328235">"Маңыздылығы төмен хабарландыруларды көрсетеді. Үнемі дыбыссыз режимде болады."</string>
     <string name="notification_channel_summary_low_status_lock" msgid="3668028634045057230">"Маңыздылығы төмен хабарландыруларды көрсетеді. Үнемі дыбыссыз режимде болады."</string>
+    <string name="notification_conversation_summary_low" msgid="6352818857388412326">"Дыбыс не діріл болмайды, әңгімелер бөлімінің төмен жағында тұрады."</string>
+    <string name="notification_channel_summary_default" msgid="3674057458265438896">"Телефон параметрлеріне байланысты дыбыстық сигнал не діріл болуы мүмкін."</string>
+
     <string name="notification_channel_summary_high" msgid="3411637309360617621">"Құрылғының құлпы ашылғанда, хабарландырулар экранның жоғарғы жағында баннер ретінде көрсетіледі."</string>
     <string name="notification_switch_label" msgid="8029371325967501557">"Барлық \"<xliff:g id="APP_NAME">%1$s</xliff:g>\" хабарландырулары"</string>
     <string name="notification_app_switch_label" msgid="4422902423925084193">"Барлық <xliff:g id="APP_NAME">%1$s</xliff:g> хабарландырулары"</string>

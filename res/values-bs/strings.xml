@@ -3940,6 +3940,7 @@
     <string name="notification_channel_summary_low_status" msgid="7866565328564018007">"Prikazuje se ispod prioritetnih obavještenja. Uvijek nečujno."</string>
     <string name="notification_channel_summary_low_lock" msgid="4009247523075328235">"Prikazuje se ispod prioritetnih obavještenja. Uvijek nečujno."</string>
     <string name="notification_channel_summary_low_status_lock" msgid="3668028634045057230">"Prikazuje se ispod prioritetnih obavještenja. Uvijek nečujno."</string>
+
     <string name="notification_app_switch_label" msgid="4422902423925084193">"Sva obavještenja aplikacije <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
     <string name="default_notification_assistant" msgid="243718059890346442">"Prilagodljiva obavještenja"</string>
     <plurals name="notifications_sent_daily" formatted="false" msgid="1479283620504341566">

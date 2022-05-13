@@ -3986,7 +3986,7 @@
     <string name="notification_channel_summary_high" msgid="3411637309360617621">"Kadar je naprava odklenjena, so obvestila prikazana kot pasica na vrhu zaslona."</string>
     <string name="notification_channel_summary_low_status" msgid="7866565328564018007">"Prikaz pod prednostnimi obvestili. Vedno tiho."</string>
     <string name="notification_channel_summary_low_lock" msgid="4009247523075328235">"Prikaz pod prednostnimi obvestili. Vedno tiho."</string>
-    <string name="notification_channel_summary_low_status_lock" msgid="3668028634045057230">"Prikaz pod prednostnimi obvestili. Vedno tiho."</string>
+    <string name="notification_channel_summary_low_status_lock" msgid="3668028634045057230">"Prikaz pod prednostnimi obvestili. Vedno tiho."</string>1
     <string name="notification_switch_label" msgid="8029371325967501557">"Vsa obvestila aplikacije »<xliff:g id="APP_NAME">%1$s</xliff:g>«"</string>
     <string name="notification_app_switch_label" msgid="4422902423925084193">"Vsa obvestila aplikacije <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
     <string name="default_notification_assistant" msgid="243718059890346442">"Prilagodljiva obvestila"</string>

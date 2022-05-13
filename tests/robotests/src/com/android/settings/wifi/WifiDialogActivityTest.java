@@ -36,8 +36,10 @@ import android.content.pm.PackageManager;
 import android.net.wifi.WifiConfiguration;
 import android.net.wifi.WifiManager;
 
+
 import androidx.lifecycle.Lifecycle.State;
 import androidx.test.core.app.ActivityScenario;
+
 
 import com.android.settings.R;
 import com.android.settings.testutils.shadow.ShadowAlertDialogCompat;
@@ -83,10 +85,12 @@ public class WifiDialogActivityTest {
     @Mock
     AccessPoint mAccessPoint;
     @Mock
+
     WifiDialog2 mWifiDialog2;
     @Mock
     WifiConfigController2 mWifiConfiguration2;
     @Mock
+
     Intent mResultData;
     @Mock
     private WifiConfigController mController;
@@ -102,6 +106,7 @@ public class WifiDialogActivityTest {
         when(mController.getConfig()).thenReturn(mWifiConfiguration);
         when(mController.getAccessPoint()).thenReturn(mAccessPoint);
         when(mWifiDialog2.getController()).thenReturn(mWifiConfiguration2);
+1c1
 
         WifiConfiguration wifiConfig = new WifiConfiguration();
         wifiConfig.SSID = AP1_SSID;

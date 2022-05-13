@@ -3893,6 +3893,7 @@
     <string name="notification_channel_summary_low_status" msgid="7866565328564018007">"Ցուցադրվում են կարևոր ծանուցումների տակ: Միշտ անձայն:"</string>
     <string name="notification_channel_summary_low_lock" msgid="4009247523075328235">"Ցուցադրվում են կարևոր ծանուցումների տակ: Միշտ անձայն:"</string>
     <string name="notification_channel_summary_low_status_lock" msgid="3668028634045057230">"Ցուցադրվում են կարևոր ծանուցումների տակ: Միշտ անձայն:"</string>
+
     <string name="notification_switch_label" msgid="8029371325967501557">"«<xliff:g id="APP_NAME">%1$s</xliff:g>» պիտակով բոլոր ծանուցումները"</string>
     <string name="notification_app_switch_label" msgid="4422902423925084193">"<xliff:g id="APP_NAME">%1$s</xliff:g> հավելվածի բոլոր ծանուցումները"</string>
     <string name="default_notification_assistant" msgid="243718059890346442">"Հարմարվող ծանուցումներ"</string>
